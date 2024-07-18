@@ -44,8 +44,9 @@ class PortfolioEnv(gym.Env):
 
         self.state = self.stock_data.iloc[self.current_step-self.window_size:self.current_step].values
         reward = self.compute_reward(action)
-        print('action', action)
+        # print('action', action)
         name_action = dict(zip(self.stock_data.columns, action))
+        # print('name_action', name_action)
         self.action_history.append(name_action)
 
         return self.state, reward, self.done, {}

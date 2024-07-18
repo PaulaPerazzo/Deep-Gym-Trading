@@ -1,9 +1,9 @@
-./data
-data
-/data
+./data_sketch
+data_sketch
+/data_sketch
 
 gym-trading (2).ipynb
 ibovespa.ipynb
 
-/render_logs
-/models
+# /render_logs
+# /models
