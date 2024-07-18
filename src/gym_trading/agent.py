@@ -105,7 +105,7 @@ class Agent:
             self.eps = max(self.eps * self.eps_decay, self.eps_min)
             print(f"Episode {episode} - Reward: {total_reward}")
 
-            with open("./gym_trading/logs/training_1.txt", "a") as f:
+            with open("./src/gym_trading/logs/training_1.txt", "a") as f:
                 f.write(f"Episode {episode} - Reward: {total_reward}\n")
 
         print("Training finished")
