@@ -5,10 +5,8 @@ from gym_trading.enviroment import PortfolioEnv
 from gym_trading.network import ActorCritic
 
 def main():
-    # Carregar os dados
-    stock_data = pd.read_csv("../data/train_data_cleaned_nan.csv")
-    stock_data.drop(columns=["Unnamed: 0"], inplace=True)
-    stock_data = stock_data.sample(frac=0.05, random_state=42)
+    # Carregar os dados de ações e índice
+    stock_data = pd.read_csv("../data/test_data_cleaned_nan.csv")
     stock_data = stock_data.set_index("Ticker")
     index_data = stock_data.copy()
     
@@ -21,17 +19,21 @@ def main():
 
     # Inicializar o ambiente
     env = PortfolioEnv(stock_data, index_data)
+    print("Environment initialized.")
 
     # Configuração da rede
     actor_critic = ActorCritic(inputs_features=2850, n_actions=285, hidden_size=256)
+    print("ActorCritic initialized.")
 
     # Carregar o modelo treinado
-    model_path = "../models/actor_critic.pth"
+    model_path = "../models/actor_critic_oficial.pth"
     actor_critic.load_state_dict(torch.load(model_path))
     actor_critic.eval()
+    print("Model loaded.")
 
     # Inicializar o agente
     agent = Agent(env, actor_critic, optimizer=None, scheduler=None)
+    print("Agent initialized.")
 
     # Loop de avaliação
     state = env.reset().flatten() 
@@ -44,7 +46,6 @@ def main():
         state_tensor = torch.FloatTensor(state).unsqueeze(0)
         action = agent.decide_action(state_tensor, max_share=30).numpy().flatten()
         state, reward, done, _ = env.step(action)  
-        # state, reward, done, _ = env.step(action.numpy())  
         state = state.flatten()  
         actions_taken.append(action)
         rewards.append(reward)
@@ -54,13 +55,16 @@ def main():
         selected_stocks.append(selected)
 
     # Imprimir ou processar as ações e recompensas
-    # print("Actions taken:", actions_taken)
-    # print("Rewards:", rewards)
-
     for step, stocks in enumerate(selected_stocks):
         print(f"Step {step+1}: {stocks}")
+
+        with open("./src/gym_trading/logs/testing_1.txt", "a") as file:
+            file.write(f"Step {step+1}: {stocks}\n")
     
     print("Total reward:", rewards)
+
+    with open("./src/gym_trading/logs/testing_1.txt", "a") as file:
+        file.write(f"Total reward: {rewards}\n")
 
 if __name__ == "__main__":
     main()
