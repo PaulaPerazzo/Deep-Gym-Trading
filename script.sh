@@ -14,4 +14,4 @@ module load Python/3.8
 source env/bin/activate
 
 # executar .py
-python3 src/main.py
+python3 src/test.py
