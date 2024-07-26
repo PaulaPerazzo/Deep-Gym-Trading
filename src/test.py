@@ -6,7 +6,7 @@ from gym_trading.network import ActorCritic
 
 def main():
     # Carregar os dados de ações e índice
-    stock_data = pd.read_csv("../data/test_data_cleaned_nan.csv")
+    stock_data = pd.read_csv("./data/test_data_cleaned_nan.csv")
     stock_data = stock_data.set_index("Ticker")
     index_data = stock_data.copy()
     
@@ -26,7 +26,7 @@ def main():
     print("ActorCritic initialized.")
 
     # Carregar o modelo treinado
-    model_path = "../models/actor_critic_oficial.pth"
+    model_path = "./models/actor_critic_oficial.pth"
     actor_critic.load_state_dict(torch.load(model_path))
     actor_critic.eval()
     print("Model loaded.")
