@@ -23,7 +23,8 @@ class Agent:
         if self.eps_decay_strategy == "linear":
             if episode == 0:
                 self.eps = 1.0
-            self.eps = max(self.eps_min, self.eps - (self.eps - self.eps_min) / episode)
+            else:
+                self.eps = max(self.eps_min, self.eps - (self.eps - self.eps_min) / episode)
         elif self.eps_decay_strategy == "exponential":
             self.eps = max(self.eps_min, self.eps * self.eps_decay)
         print(f"Updated epsilon: {self.eps}")
