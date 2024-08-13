@@ -16,6 +16,15 @@ class Agent:
         self.eps = eps
         self.eps_min = eps_min
         self.eps_decay = eps_decay
+        self.eps_decay_strategy = "linear"
+    
+
+    def update_eps(self, episode):
+        if self.eps_decay_strategy == "linear":
+            self.eps = max(self.eps_min, self.eps - (self.eps - self.eps_min) / episode)
+        elif self.eps_decay_strategy == "exponential":
+            self.eps = max(self.eps_min, self.eps * self.eps_decay)
+        print(f"Updated epsilon: {self.eps}")
 
     
     def decide_action(self, state, max_share=30):
@@ -44,9 +53,24 @@ class Agent:
     def sample_action(self, probs, max_share):
         probs = torch.relu(probs)
 
-        if torch.isnan(probs).any() or torch.isinf(probs).any():
-            print("Probs contain NaN or inf values:", probs)
-            probs = torch.nan_to_num(probs)
+        # if torch.isnan(probs).any() or torch.isinf(probs).any():
+        #     print("Probs contain NaN or inf values:", probs)
+        #     probs = torch.nan_to_num(probs)
+
+        # scaled_probs = (probs / probs.sum()) * max_share
+        # shares = torch.floor(scaled_probs)
+
+        # while shares.sum() < max_share:
+        #     residuals = scaled_probs - shares
+        #     residuals = torch.clamp(residuals, min=0)
+        #     residuals /= residuals.sum()
+        #     choosen_index = torch.multinomial(residuals, 1)
+        #     shares[choosen_index] += 1
+
+        # return shares.int()
+
+        probs /= probs.sum()
+        probs = torch.clamp(probs, min=1e-6)
 
         scaled_probs = (probs / probs.sum()) * max_share
         shares = torch.floor(scaled_probs)
@@ -57,7 +81,7 @@ class Agent:
             residuals /= residuals.sum()
             choosen_index = torch.multinomial(residuals, 1)
             shares[choosen_index] += 1
-
+        
         return shares.int()
 
     
@@ -101,11 +125,13 @@ class Agent:
 
                 state = next_state
             
+            # update episilon after each episode
+            self.update_eps(episode)
             self.scheduler.step()
-            self.eps = max(self.eps * self.eps_decay, self.eps_min)
+            # self.eps = max(self.eps * self.eps_decay, self.eps_min)
             print(f"Episode {episode} - Reward: {total_reward}")
 
-            with open("./src/gym_trading/logs/training_2.txt", "a") as f:
+            with open("./src/gym_trading/logs/training_3.txt", "a") as f:
                 f.write(f"Episode {episode} - Reward: {total_reward}\n")
 
         print("Training finished")
