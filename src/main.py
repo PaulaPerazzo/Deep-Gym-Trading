@@ -29,7 +29,7 @@ def main():
     ### agent ###
     agent = Agent(env, actor_critic, optimizer, scheduler)
     agent.train(200)
-    agent.save_model("./models/actor_critic_oficial.pth")
+    agent.save_model("./models/actor_critic_oficial_2.pth")
 
 if __name__ == "__main__":
     main()

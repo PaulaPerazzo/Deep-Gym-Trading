@@ -1,0 +1,907 @@
+  MEAL3.SA.4: 11 stocks
+Step 581:
+  UNIP3.SA.4: 1 stocks
+  SMTO3.SA.4: 26 stocks
+  ALUP4.SA.4: 3 stocks
+Step 582:
+  AMAR3.SA.4: 23 stocks
+  JFEN3.SA.4: 7 stocks
+Step 583:
+  ECOR3.SA.4: 30 stocks
+Step 584:
+  TECN3.SA.4: 30 stocks
+Step 585:
+  SBSP3.SA.4: 19 stocks
+  BRIV4.SA.4: 5 stocks
+  BRKM5.SA.4: 4 stocks
+  CGRA4.SA.4: 2 stocks
+Step 586:
+  INEP3.SA.4: 7 stocks
+  ALUP3.SA.4: 23 stocks
+Step 587:
+  ITUB3.SA.4: 24 stocks
+  VLID3.SA.4: 3 stocks
+  RAPT4.SA.4: 3 stocks
+Step 588:
+  TEND3.SA.4: 28 stocks
+  CBEE3.SA.4: 2 stocks
+Step 589:
+  MNDL3.SA.4: 30 stocks
+Step 590:
+  BRAP4.SA.4: 9 stocks
+  GOLL4.SA.4: 21 stocks
+Step 591:
+  BBDC3.SA.4: 7 stocks
+  WHRL4.SA.4: 23 stocks
+Step 592:
+  OIBR4.SA.4: 30 stocks
+Step 593:
+  BEES4.SA.4: 30 stocks
+Step 594:
+  LEVE3.SA.4: 30 stocks
+Step 595:
+  ELET6.SA.4: 10 stocks
+  ALUP4.SA.4: 20 stocks
+Step 596:
+  PLAS3.SA.4: 30 stocks
+Step 597:
+  SLED3.SA.4: 22 stocks
+  HETA4.SA.4: 1 stocks
+  RDNI3.SA.4: 7 stocks
+Step 598:
+  RPAD5.SA.4: 27 stocks
+  TCSA3.SA.4: 3 stocks
+Step 599:
+  EZTC3.SA.4: 30 stocks
+Step 600:
+  ENMT4.SA.4: 30 stocks
+Step 601:
+  RCSL3.SA.4: 2 stocks
+  SBSP3.SA.4: 9 stocks
+  PTBL3.SA.4: 3 stocks
+  GUAR3.SA.4: 16 stocks
+Step 602:
+  COGN3.SA.4: 10 stocks
+  BPAN4.SA.4: 20 stocks
+Step 603:
+  QUAL3.SA.4: 30 stocks
+Step 604:
+  BBDC4.SA.4: 11 stocks
+  BALM3.SA.4: 19 stocks
+Step 605:
+  BRSR5.SA.4: 30 stocks
+Step 606:
+  LIGT3.SA.4: 30 stocks
+Step 607:
+  CEEB5.SA.4: 12 stocks
+  GSHP3.SA.4: 18 stocks
+Step 608:
+  RDNI3.SA.4: 30 stocks
+Step 609:
+  GEPA4.SA.4: 22 stocks
+  ELET6.SA.4: 8 stocks
+Step 610:
+  GGBR4.SA.4: 12 stocks
+  BRKM5.SA.4: 17 stocks
+  AFLT3.SA.4: 1 stocks
+Step 611:
+  PTNT4.SA.4: 30 stocks
+Step 612:
+  SANB4.SA.4: 30 stocks
+Step 613:
+  RPAD6.SA.4: 28 stocks
+  USIM5.SA.4: 2 stocks
+Step 614:
+  ABEV3.SA.4: 19 stocks
+  SBSP3.SA.4: 11 stocks
+Step 615:
+  HYPE3.SA.4: 23 stocks
+  MERC4.SA.4: 7 stocks
+Step 616:
+  CGAS3.SA.4: 30 stocks
+Step 617:
+  WHRL4.SA.4: 30 stocks
+Step 618:
+  CVCB3.SA.4: 12 stocks
+  SCAR3.SA.4: 18 stocks
+Step 619:
+  RDNI3.SA.4: 30 stocks
+Step 620:
+  SOND6.SA.4: 6 stocks
+  BRSR5.SA.4: 24 stocks
+Step 621:
+  MYPK3.SA.4: 30 stocks
+Step 622:
+  GSHP3.SA.4: 30 stocks
+Step 623:
+  EKTR4.SA.4: 30 stocks
+Step 624:
+  BMIN3.SA.4: 16 stocks
+  RANI3.SA.4: 14 stocks
+Step 625:
+  LOGN3.SA.4: 30 stocks
+Step 626:
+  BEEF3.SA.4: 12 stocks
+  SNSY5.SA.4: 15 stocks
+  POMO3.SA.4: 3 stocks
+Step 627:
+  OIBR4.SA.4: 7 stocks
+  ARZZ3.SA.4: 13 stocks
+  BEES3.SA.4: 10 stocks
+Step 628:
+  BBDC3.SA.4: 30 stocks
+Step 629:
+  HAGA3.SA.4: 5 stocks
+  EZTC3.SA.4: 12 stocks
+  TASA4.SA.4: 13 stocks
+Step 630:
+  GGBR4.SA.4: 30 stocks
+Step 631:
+  EGIE3.SA.4: 30 stocks
+Step 632:
+  SMTO3.SA.4: 30 stocks
+Step 633:
+  CIEL3.SA.4: 30 stocks
+Step 634:
+  BSLI4.SA.4: 7 stocks
+  CGAS3.SA.4: 1 stocks
+  RENT3.SA.4: 22 stocks
+Step 635:
+  BSLI4.SA.4: 4 stocks
+  EALT4.SA.4: 4 stocks
+  STBP3.SA.4: 22 stocks
+Step 636:
+  MRVE3.SA.4: 6 stocks
+  CEED3.SA.4: 11 stocks
+  AFLT3.SA.4: 13 stocks
+Step 637:
+  CCRO3.SA.4: 11 stocks
+  GOLL4.SA.4: 19 stocks
+Step 638:
+  CTSA3.SA.4: 26 stocks
+  PINE4.SA.4: 4 stocks
+Step 639:
+  CCRO3.SA.4: 2 stocks
+  CIEL3.SA.4: 15 stocks
+  ECPR3.SA.4: 3 stocks
+  CEDO4.SA.4: 10 stocks
+Step 640:
+  CEBR3.SA.4: 25 stocks
+  HYPE3.SA.4: 3 stocks
+  MERC4.SA.4: 2 stocks
+Step 641:
+  BMEB4.SA.4: 23 stocks
+  TELB4.SA.4: 7 stocks
+Step 642:
+  BGIP3.SA.4: 4 stocks
+  SEER3.SA.4: 26 stocks
+Step 643:
+  JHSF3.SA.4: 20 stocks
+  GEPA3.SA.4: 10 stocks
+Step 644:
+  APER3.SA.4: 19 stocks
+  ALPA3.SA.4: 11 stocks
+Step 645:
+  TASA3.SA.4: 15 stocks
+  PEAB3.SA.4: 15 stocks
+Step 646:
+  FHER3.SA.4: 7 stocks
+  PDGR3.SA.4: 3 stocks
+  FRAS3.SA.4: 1 stocks
+  ENGI3.SA.4: 1 stocks
+  SEER3.SA.4: 18 stocks
+Step 647:
+  RADL3.SA.4: 12 stocks
+  CBEE3.SA.4: 18 stocks
+Step 648:
+  EUCA4.SA.4: 30 stocks
+Step 649:
+  CVCB3.SA.4: 2 stocks
+  CEEB3.SA.4: 19 stocks
+  BEES3.SA.4: 9 stocks
+Step 650:
+  ITSA4.SA.4: 30 stocks
+Step 651:
+  CPLE6.SA.4: 30 stocks
+Step 652:
+  BAHI3.SA.4: 4 stocks
+  UNIP6.SA.4: 26 stocks
+Step 653:
+  OIBR4.SA.4: 3 stocks
+  USIM3.SA.4: 9 stocks
+  RAIL3.SA.4: 18 stocks
+Step 654:
+  GEPA3.SA.4: 20 stocks
+  JFEN3.SA.4: 10 stocks
+Step 655:
+  ADHM3.SA.4: 23 stocks
+  TRPL3.SA.4: 7 stocks
+Step 656:
+  MTSA4.SA.4: 30 stocks
+Step 657:
+  GRND3.SA.4: 30 stocks
+Step 658:
+  AHEB3.SA.4: 30 stocks
+Step 659:
+  BMKS3.SA.4: 16 stocks
+  PFRM3.SA.4: 12 stocks
+  GFSA3.SA.4: 2 stocks
+Step 660:
+  PATI4.SA.4: 5 stocks
+  CTNM4.SA.4: 25 stocks
+Step 661:
+  LIGT3.SA.4: 22 stocks
+  ELET6.SA.4: 8 stocks
+Step 662:
+  UNIP3.SA.4: 29 stocks
+  WHRL4.SA.4: 1 stocks
+Step 663:
+  CRPG6.SA.4: 2 stocks
+  RCSL3.SA.4: 6 stocks
+  LIPR3.SA.4: 22 stocks
+Step 664:
+  CSNA3.SA.4: 23 stocks
+  VSPT3.SA.4: 7 stocks
+Step 665:
+  ODPV3.SA.4: 30 stocks
+Step 666:
+  MGEL4.SA.4: 28 stocks
+  DIRR3.SA.4: 2 stocks
+Step 667:
+  AHEB3.SA.4: 25 stocks
+  CEDO4.SA.4: 5 stocks
+Step 668:
+  SGPS3.SA.4: 30 stocks
+Step 669:
+  OIBR3.SA.4: 30 stocks
+Step 670:
+  MEAL3.SA.4: 30 stocks
+Step 671:
+  USIM6.SA.4: 24 stocks
+  BRSR5.SA.4: 6 stocks
+Step 672:
+  TEND3.SA.4: 30 stocks
+Step 673:
+  BEES4.SA.4: 30 stocks
+Step 674:
+  TRIS3.SA.4: 30 stocks
+Step 675:
+  BBSE3.SA.4: 2 stocks
+  NUTR3.SA.4: 25 stocks
+  WHRL4.SA.4: 3 stocks
+Step 676:
+  EMAE4.SA.4: 30 stocks
+Step 677:
+  DTCY3.SA.4: 3 stocks
+  AZEV4.SA.4: 27 stocks
+Step 678:
+  CRPG6.SA.4: 7 stocks
+  ENMT4.SA.4: 12 stocks
+  GFSA3.SA.4: 11 stocks
+Step 679:
+  CSRN3.SA.4: 30 stocks
+Step 680:
+  BRFS3.SA.4: 2 stocks
+  CGAS3.SA.4: 25 stocks
+  LIPR3.SA.4: 3 stocks
+Step 681:
+  RAIL3.SA.4: 30 stocks
+Step 682:
+  ANIM3.SA.4: 30 stocks
+Step 683:
+  TEKA4.SA.4: 30 stocks
+Step 684:
+  SMTO3.SA.4: 16 stocks
+  SCAR3.SA.4: 14 stocks
+Step 685:
+  RANI3.SA.4: 30 stocks
+Step 686:
+  CTSA4.SA.4: 20 stocks
+  BBDC3.SA.4: 10 stocks
+Step 687:
+  GEPA4.SA.4: 30 stocks
+Step 688:
+  ABCB4.SA.4: 2 stocks
+  BGIP3.SA.4: 28 stocks
+Step 689:
+  CSMG3.SA.4: 18 stocks
+  CRPG5.SA.4: 12 stocks
+Step 690:
+  FHER3.SA.4: 12 stocks
+  MAPT3.SA.4: 18 stocks
+Step 691:
+  MDIA3.SA.4: 30 stocks
+Step 692:
+  RANI3.SA.4: 30 stocks
+Step 693:
+  BAZA3.SA.4: 23 stocks
+  GGBR4.SA.4: 7 stocks
+Step 694:
+  BBSE3.SA.4: 30 stocks
+Step 695:
+  GRND3.SA.4: 18 stocks
+  ROMI3.SA.4: 12 stocks
+Step 696:
+  ANIM3.SA.4: 1 stocks
+  TELB3.SA.4: 13 stocks
+  BMIN3.SA.4: 8 stocks
+  STBP3.SA.4: 8 stocks
+Step 697:
+  TASA4.SA.4: 2 stocks
+  SAPR4.SA.4: 28 stocks
+Step 698:
+  CYRE3.SA.4: 30 stocks
+Step 699:
+  CEBR3.SA.4: 18 stocks
+  SANB4.SA.4: 12 stocks
+Step 700:
+  ABCB4.SA.4: 30 stocks
+Step 701:
+  UNIP3.SA.4: 8 stocks
+  DIRR3.SA.4: 22 stocks
+Step 702:
+  EALT4.SA.4: 30 stocks
+Step 703:
+  FESA4.SA.4: 17 stocks
+  RENT3.SA.4: 13 stocks
+Step 704:
+  CVCB3.SA.4: 13 stocks
+  GUAR3.SA.4: 17 stocks
+Step 705:
+  CSNA3.SA.4: 30 stocks
+Step 706:
+  CTSA4.SA.4: 15 stocks
+  ALUP4.SA.4: 15 stocks
+Step 707:
+  BBDC3.SA.4: 10 stocks
+  BIOM3.SA.4: 13 stocks
+  TCSA3.SA.4: 7 stocks
+Step 708:
+  FRIO3.SA.4: 5 stocks
+  BPAC5.SA.4: 25 stocks
+Step 709:
+  GRND3.SA.4: 1 stocks
+  UNIP5.SA.4: 19 stocks
+  DIRR3.SA.4: 10 stocks
+Step 710:
+  HBOR3.SA.4: 1 stocks
+  OIBR3.SA.4: 19 stocks
+  JBSS3.SA.4: 10 stocks
+Step 711:
+  CGRA3.SA.4: 30 stocks
+Step 712:
+  MULT3.SA.4: 30 stocks
+Step 713:
+  HAGA4.SA.4: 7 stocks
+  MYPK3.SA.4: 2 stocks
+  CSAN3.SA.4: 21 stocks
+Step 714:
+  OFSA3.SA.4: 26 stocks
+  PLAS3.SA.4: 4 stocks
+Step 715:
+  TGMA3.SA.4: 22 stocks
+  VULC3.SA.4: 8 stocks
+Step 716:
+  TELB4.SA.4: 30 stocks
+Step 717:
+  TCSA3.SA.4: 30 stocks
+Step 718:
+  JOPA4.SA.4: 27 stocks
+  GGBR4.SA.4: 3 stocks
+Step 719:
+  CSAN3.SA.4: 30 stocks
+Step 720:
+  MWET4.SA.4: 30 stocks
+Step 721:
+  MULT3.SA.4: 30 stocks
+Step 722:
+  BPAN4.SA.4: 22 stocks
+  TOTS3.SA.4: 8 stocks
+Step 723:
+  TECN3.SA.4: 30 stocks
+Step 724:
+  CEEB3.SA.4: 30 stocks
+Step 725:
+  BPHA3.SA.4: 30 stocks
+Step 726:
+  CGAS5.SA.4: 30 stocks
+Step 727:
+  COCE5.SA.4: 2 stocks
+  MWET4.SA.4: 13 stocks
+  GUAR3.SA.4: 3 stocks
+  CTKA4.SA.4: 12 stocks
+Step 728:
+  SUZB3.SA.4: 7 stocks
+  HAGA3.SA.4: 7 stocks
+  CLSC4.SA.4: 16 stocks
+Step 729:
+  PINE4.SA.4: 30 stocks
+Step 730:
+  DASA3.SA.4: 30 stocks
+Step 731:
+  CMIG4.SA.4: 21 stocks
+  AFLT3.SA.4: 9 stocks
+Step 732:
+  FESA4.SA.4: 30 stocks
+Step 733:
+  FRIO3.SA.4: 30 stocks
+Step 734:
+  VULC3.SA.4: 30 stocks
+Step 735:
+  MOAR3.SA.4: 23 stocks
+  CEEB3.SA.4: 4 stocks
+  MDIA3.SA.4: 3 stocks
+Step 736:
+  CEEB5.SA.4: 30 stocks
+Step 737:
+  VULC3.SA.4: 10 stocks
+  BRIV4.SA.4: 20 stocks
+Step 738:
+  BNBR3.SA.4: 30 stocks
+Step 739:
+  TPIS3.SA.4: 5 stocks
+  TUPY3.SA.4: 9 stocks
+  MGLU3.SA.4: 16 stocks
+Step 740:
+  WEGE3.SA.4: 5 stocks
+  PATI3.SA.4: 25 stocks
+Step 741:
+  FRIO3.SA.4: 9 stocks
+  CPFE3.SA.4: 21 stocks
+Step 742:
+  WEGE3.SA.4: 30 stocks
+Step 743:
+  ENAT3.SA.4: 13 stocks
+  TOTS3.SA.4: 17 stocks
+Step 744:
+  MDIA3.SA.4: 30 stocks
+Step 745:
+  GUAR3.SA.4: 30 stocks
+Step 746:
+  ITSA4.SA.4: 30 stocks
+Step 747:
+  MEAL3.SA.4: 30 stocks
+Step 748:
+  BGIP4.SA.4: 7 stocks
+  RENT3.SA.4: 10 stocks
+  BRIV4.SA.4: 13 stocks
+Step 749:
+  YDUQ3.SA.4: 13 stocks
+  BRKM3.SA.4: 9 stocks
+  CBEE3.SA.4: 8 stocks
+Step 750:
+  SANB4.SA.4: 30 stocks
+Step 751:
+  PDGR3.SA.4: 30 stocks
+Step 752:
+  TELB4.SA.4: 4 stocks
+  CLSC4.SA.4: 9 stocks
+  BEES3.SA.4: 17 stocks
+Step 753:
+  CTKA4.SA.4: 30 stocks
+Step 754:
+  POMO4.SA.4: 30 stocks
+Step 755:
+  AALR3.SA.4: 30 stocks
+Step 756:
+  ENAT3.SA.4: 2 stocks
+  TAEE3.SA.4: 28 stocks
+Step 757:
+  SOND5.SA.4: 30 stocks
+Step 758:
+  MULT3.SA.4: 28 stocks
+  BEES3.SA.4: 2 stocks
+Step 759:
+  ITSA3.SA.4: 5 stocks
+  MEAL3.SA.4: 25 stocks
+Step 760:
+  EGIE3.SA.4: 30 stocks
+Step 761:
+  OIBR3.SA.4: 30 stocks
+Step 762:
+  MEAL3.SA.4: 15 stocks
+  WHRL4.SA.4: 15 stocks
+Step 763:
+  ABCB4.SA.4: 16 stocks
+  CMIG3.SA.4: 14 stocks
+Step 764:
+  PATI3.SA.4: 30 stocks
+Step 765:
+  POMO4.SA.4: 21 stocks
+  LUXM4.SA.4: 9 stocks
+Step 766:
+  EMBR3.SA.4: 12 stocks
+  HAGA3.SA.4: 18 stocks
+Step 767:
+  SOND5.SA.4: 30 stocks
+Step 768:
+  BRPR3.SA.4: 10 stocks
+  CTNM3.SA.4: 19 stocks
+  MOAR3.SA.4: 1 stocks
+Step 769:
+  POMO3.SA.4: 30 stocks
+Step 770:
+  BBDC3.SA.4: 30 stocks
+Step 771:
+  PEAB4.SA.4: 15 stocks
+  ARZZ3.SA.4: 15 stocks
+Step 772:
+  MGEL4.SA.4: 20 stocks
+  ECPR3.SA.4: 10 stocks
+Step 773:
+  EMBR3.SA.4: 1 stocks
+  ELET6.SA.4: 29 stocks
+Step 774:
+  USIM6.SA.4: 14 stocks
+  LEVE3.SA.4: 16 stocks
+Step 775:
+  MRVE3.SA.4: 30 stocks
+Step 776:
+  OSXB3.SA.4: 30 stocks
+Step 777:
+  LUPA3.SA.4: 30 stocks
+Step 778:
+  BRSR6.SA.4: 24 stocks
+  BRSR3.SA.4: 3 stocks
+  SANB4.SA.4: 3 stocks
+Step 779:
+  BSLI4.SA.4: 12 stocks
+  BRIV4.SA.4: 18 stocks
+Step 780:
+  SLED4.SA.4: 30 stocks
+Step 781:
+  SLCE3.SA.4: 17 stocks
+  CLSC4.SA.4: 13 stocks
+Step 782:
+  BBDC3.SA.4: 28 stocks
+  MDIA3.SA.4: 2 stocks
+Step 783:
+  ESTR4.SA.4: 22 stocks
+  SLED4.SA.4: 8 stocks
+Step 784:
+  BRFS3.SA.4: 26 stocks
+  SANB3.SA.4: 4 stocks
+Step 785:
+  TASA3.SA.4: 30 stocks
+Step 786:
+  POMO4.SA.4: 30 stocks
+Step 787:
+  TOTS3.SA.4: 30 stocks
+Step 788:
+  MERC4.SA.4: 30 stocks
+Step 789:
+  SOND6.SA.4: 19 stocks
+  JOPA3.SA.4: 11 stocks
+Step 790:
+  LPSB3.SA.4: 30 stocks
+Step 791:
+  BRGE6.SA.4: 16 stocks
+  PDGR3.SA.4: 14 stocks
+Step 792:
+  SOND5.SA.4: 30 stocks
+Step 793:
+  CEED3.SA.4: 30 stocks
+Step 794:
+  TELB4.SA.4: 30 stocks
+Step 795:
+  SLED4.SA.4: 13 stocks
+  ITSA3.SA.4: 7 stocks
+  STBP3.SA.4: 10 stocks
+Step 796:
+  MERC4.SA.4: 30 stocks
+Step 797:
+  MGEL4.SA.4: 5 stocks
+  ALPA3.SA.4: 25 stocks
+Step 798:
+  BBDC4.SA.4: 22 stocks
+  RDNI3.SA.4: 8 stocks
+Step 799:
+  ESTR4.SA.4: 1 stocks
+  GRND3.SA.4: 25 stocks
+  ITUB4.SA.4: 4 stocks
+Step 800:
+  VULC3.SA.4: 30 stocks
+Step 801:
+  SNSY5.SA.4: 19 stocks
+  CTKA4.SA.4: 11 stocks
+Step 802:
+  ATOM3.SA.4: 3 stocks
+  PTBL3.SA.4: 27 stocks
+Step 803:
+  BSLI4.SA.4: 19 stocks
+  SCAR3.SA.4: 11 stocks
+Step 804:
+  BRFS3.SA.4: 16 stocks
+  PSSA3.SA.4: 14 stocks
+Step 805:
+  JHSF3.SA.4: 11 stocks
+  ECPR3.SA.4: 19 stocks
+Step 806:
+  QUAL3.SA.4: 30 stocks
+Step 807:
+  PMAM3.SA.4: 30 stocks
+Step 808:
+  EMBR3.SA.4: 9 stocks
+  WLMM4.SA.4: 21 stocks
+Step 809:
+  CGRA3.SA.4: 30 stocks
+Step 810:
+  CPLE6.SA.4: 11 stocks
+  CTNM4.SA.4: 19 stocks
+Step 811:
+  ANIM3.SA.4: 13 stocks
+  BPAC5.SA.4: 9 stocks
+  SBSP3.SA.4: 1 stocks
+  TRPL3.SA.4: 7 stocks
+Step 812:
+  YDUQ3.SA.4: 21 stocks
+  ITSA4.SA.4: 9 stocks
+Step 813:
+  USIM3.SA.4: 4 stocks
+  ABCB4.SA.4: 26 stocks
+Step 814:
+  BGIP3.SA.4: 30 stocks
+Step 815:
+  TEND3.SA.4: 9 stocks
+  STBP3.SA.4: 21 stocks
+Step 816:
+  SCAR3.SA.4: 30 stocks
+Step 817:
+  WHRL3.SA.4: 30 stocks
+Step 818:
+  MTSA4.SA.4: 6 stocks
+  FLRY3.SA.4: 24 stocks
+Step 819:
+  TRIS3.SA.4: 26 stocks
+  CMIG4.SA.4: 4 stocks
+Step 820:
+  RNEW3.SA.4: 1 stocks
+  PLAS3.SA.4: 14 stocks
+  SNSY5.SA.4: 15 stocks
+Step 821:
+  MILS3.SA.4: 30 stocks
+Step 822:
+  ELET6.SA.4: 30 stocks
+Step 823:
+  MNDL3.SA.4: 28 stocks
+  EALT4.SA.4: 2 stocks
+Step 824:
+  COCE5.SA.4: 17 stocks
+  TECN3.SA.4: 13 stocks
+Step 825:
+  SHOW3.SA.4: 30 stocks
+Step 826:
+  OFSA3.SA.4: 3 stocks
+  EALT3.SA.4: 27 stocks
+Step 827:
+  CGRA4.SA.4: 30 stocks
+Step 828:
+  TGMA3.SA.4: 30 stocks
+Step 829:
+  COCE5.SA.4: 14 stocks
+  JOPA4.SA.4: 16 stocks
+Step 830:
+  ARZZ3.SA.4: 30 stocks
+Step 831:
+  AFLT3.SA.4: 30 stocks
+Step 832:
+  VIVT3.SA.4: 30 stocks
+Step 833:
+  CGAS5.SA.4: 7 stocks
+  BEES3.SA.4: 23 stocks
+Step 834:
+  WHRL4.SA.4: 21 stocks
+  SEER3.SA.4: 9 stocks
+Step 835:
+  MGEL4.SA.4: 30 stocks
+Step 836:
+  VIVT3.SA.4: 30 stocks
+Step 837:
+  EGIE3.SA.4: 8 stocks
+  BAUH4.SA.4: 22 stocks
+Step 838:
+  BNBR3.SA.4: 13 stocks
+  SMTO3.SA.4: 17 stocks
+Step 839:
+  RSID3.SA.4: 30 stocks
+Step 840:
+  ADHM3.SA.4: 21 stocks
+  SLED4.SA.4: 9 stocks
+Step 841:
+  SEER3.SA.4: 30 stocks
+Step 842:
+  TRPL3.SA.4: 9 stocks
+  SOND5.SA.4: 21 stocks
+Step 843:
+  JHSF3.SA.4: 27 stocks
+  ECOR3.SA.4: 1 stocks
+  BAZA3.SA.4: 2 stocks
+Step 844:
+  ATOM3.SA.4: 7 stocks
+  MOAR3.SA.4: 23 stocks
+Step 845:
+  VSPT3.SA.4: 25 stocks
+  TXRX4.SA.4: 5 stocks
+Step 846:
+  AALR3.SA.4: 3 stocks
+  EALT4.SA.4: 27 stocks
+Step 847:
+  MAPT3.SA.4: 30 stocks
+Step 848:
+  DTCY3.SA.4: 13 stocks
+  AFLT3.SA.4: 17 stocks
+Step 849:
+  CRPG5.SA.4: 30 stocks
+Step 850:
+  POMO3.SA.4: 30 stocks
+Step 851:
+  COCE5.SA.4: 2 stocks
+  MYPK3.SA.4: 11 stocks
+  SANB3.SA.4: 17 stocks
+Step 852:
+  JOPA4.SA.4: 30 stocks
+Step 853:
+  AZEV3.SA.4: 11 stocks
+  RAIL3.SA.4: 19 stocks
+Step 854:
+  MRVE3.SA.4: 7 stocks
+  MEAL3.SA.4: 23 stocks
+Step 855:
+  FRIO3.SA.4: 30 stocks
+Step 856:
+  FHER3.SA.4: 5 stocks
+  GRND3.SA.4: 25 stocks
+Step 857:
+  CVCB3.SA.4: 30 stocks
+Step 858:
+  GRND3.SA.4: 30 stocks
+Step 859:
+  COCE5.SA.4: 30 stocks
+Step 860:
+  B3SA3.SA.4: 30 stocks
+Step 861:
+  BRGE6.SA.4: 1 stocks
+  RANI3.SA.4: 29 stocks
+Step 862:
+  GOAU3.SA.4: 30 stocks
+Step 863:
+  HOOT4.SA.4: 6 stocks
+  CSMG3.SA.4: 3 stocks
+  GSHP3.SA.4: 21 stocks
+Step 864:
+  TEND3.SA.4: 8 stocks
+  POMO4.SA.4: 2 stocks
+  SBSP3.SA.4: 20 stocks
+Step 865:
+  TGMA3.SA.4: 3 stocks
+  PLAS3.SA.4: 20 stocks
+  HETA4.SA.4: 7 stocks
+Step 866:
+  PFRM3.SA.4: 30 stocks
+Step 867:
+  PMAM3.SA.4: 30 stocks
+Step 868:
+  TRPL3.SA.4: 13 stocks
+  ELET3.SA.4: 17 stocks
+Step 869:
+  LIGT3.SA.4: 4 stocks
+  CSRN3.SA.4: 17 stocks
+  OIBR3.SA.4: 9 stocks
+Step 870:
+  ADHM3.SA.4: 30 stocks
+Step 871:
+  BAUH4.SA.4: 30 stocks
+Step 872:
+  RNEW3.SA.4: 18 stocks
+  SGPS3.SA.4: 12 stocks
+Step 873:
+  B3SA3.SA.4: 16 stocks
+  ELET3.SA.4: 14 stocks
+Step 874:
+  BAUH4.SA.4: 30 stocks
+Step 875:
+  MNDL3.SA.4: 15 stocks
+  VIVT3.SA.4: 15 stocks
+Step 876:
+  SUZB3.SA.4: 17 stocks
+  RADL3.SA.4: 13 stocks
+Step 877:
+  LIPR3.SA.4: 30 stocks
+Step 878:
+  SEER3.SA.4: 30 stocks
+Step 879:
+  CGAS5.SA.4: 11 stocks
+  BMIN3.SA.4: 19 stocks
+Step 880:
+  FESA3.SA.4: 26 stocks
+  CGAS5.SA.4: 4 stocks
+Step 881:
+  TEND3.SA.4: 13 stocks
+  BRIV4.SA.4: 17 stocks
+Step 882:
+  FRAS3.SA.4: 10 stocks
+  GOLL4.SA.4: 20 stocks
+Step 883:
+  DTCY3.SA.4: 30 stocks
+Step 884:
+  ITUB3.SA.4: 17 stocks
+  PSSA3.SA.4: 10 stocks
+  ALPA3.SA.4: 3 stocks
+Step 885:
+  ATOM3.SA.4: 27 stocks
+  GFSA3.SA.4: 3 stocks
+Step 886:
+  DASA3.SA.4: 30 stocks
+Step 887:
+  ENMT4.SA.4: 27 stocks
+  SLED3.SA.4: 3 stocks
+Step 888:
+  DOHL4.SA.4: 17 stocks
+  POMO3.SA.4: 13 stocks
+Step 889:
+  TXRX4.SA.4: 30 stocks
+Step 890:
+  RPAD6.SA.4: 30 stocks
+Step 891:
+  BRAP4.SA.4: 11 stocks
+  ELET3.SA.4: 19 stocks
+Step 892:
+  BPAN4.SA.4: 24 stocks
+  WHRL3.SA.4: 6 stocks
+Step 893:
+  TRPL3.SA.4: 30 stocks
+Step 894:
+  LIGT3.SA.4: 30 stocks
+Step 895:
+  CIEL3.SA.4: 2 stocks
+  CGAS5.SA.4: 26 stocks
+  KEPL3.SA.4: 2 stocks
+Step 896:
+  GGBR3.SA.4: 3 stocks
+  BGIP4.SA.4: 27 stocks
+Step 897:
+  CIEL3.SA.4: 17 stocks
+  BMIN3.SA.4: 13 stocks
+Step 898:
+  AHEB3.SA.4: 18 stocks
+  BMIN4.SA.4: 12 stocks
+Step 899:
+  BMIN3.SA.4: 29 stocks
+  CTKA4.SA.4: 1 stocks
+Step 900:
+  ENMT3.SA.4: 15 stocks
+  CGAS3.SA.4: 8 stocks
+  COCE3.SA.4: 7 stocks
+Step 901:
+  SBSP3.SA.4: 30 stocks
+Step 902:
+  GEPA3.SA.4: 23 stocks
+  SANB4.SA.4: 7 stocks
+Step 903:
+  GOAU4.SA.4: 30 stocks
+Step 904:
+  QUAL3.SA.4: 30 stocks
+Step 905:
+  JFEN3.SA.4: 22 stocks
+  CTNM4.SA.4: 8 stocks
+Step 906:
+  EUCA4.SA.4: 30 stocks
+Step 907:
+  GEPA4.SA.4: 11 stocks
+  ESTR4.SA.4: 17 stocks
+  SBSP3.SA.4: 2 stocks
+Step 908:
+  PLAS3.SA.4: 30 stocks
+Step 909:
+  CTKA4.SA.4: 30 stocks
+Step 910:
+  JOPA3.SA.4: 29 stocks
+  CGAS3.SA.4: 1 stocks
+Step 911:
+  RCSL3.SA.4: 30 stocks
+Step 912:
+  TGMA3.SA.4: 25 stocks
+  QUAL3.SA.4: 5 stocks
+Step 913:
+  PRIO3.SA.4: 4 stocks
+  

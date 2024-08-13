@@ -9,3 +9,6 @@ ibovespa.ipynb
 # /models
 
 env
+.venv
+./.venv
+/.venv
