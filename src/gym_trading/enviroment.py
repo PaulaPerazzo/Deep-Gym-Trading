@@ -82,12 +82,8 @@ class PortfolioEnv(gym.Env):
         # portfolio_volat = np.std(portfolio_return)
         # index_volat = np.std(index_return)
 
-        # normalize rewards
-        normalized_portfolio_return = portfolio_return / np.abs(portfolio_return).max()
-
         # reward = ((portfolio_return - index_return) / portfolio_volat) - 0.8 * abs(portfolio_volat - index_volat)
-        # reward = portfolio_return - index_return
-        reward = normalized_portfolio_return - index_return
+        reward = portfolio_return - index_return
 
         return reward
 
