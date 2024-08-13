@@ -85,25 +85,10 @@ class PortfolioEnv(gym.Env):
         # normalize rewards
         normalized_portfolio_return = portfolio_return / np.abs(portfolio_return).max()
 
-        # Penalize for volatility
-        volatility_penalty = np.std(normalized_portfolio_return) if len(self.action_history) > 1 else 0
-
-        # Calculate current drawdown
-        current_value = np.dot(action, current_prices)
-        if len(self.action_history) > 1:
-            max_value = max([np.dot(a, self.stock_data.iloc[step].values) for step, a in enumerate(self.action_history)])
-        else:
-            max_value = current_value
-        drawdown_penalty = max(0, (max_value - current_value) / max_value)
-
-        # Risk-adjusted reward with drawdown penalty
-        reward = (normalized_portfolio_return - index_return) / (1 + volatility_penalty + drawdown_penalty)
-
         # reward = ((portfolio_return - index_return) / portfolio_volat) - 0.8 * abs(portfolio_volat - index_volat)
         # reward = portfolio_return - index_return
-        # reward = normalized_portfolio_return - index_return
+        reward = normalized_portfolio_return - index_return
 
-        # return reward
         return reward
 
 
