@@ -100,4 +100,6 @@ class PortfolioEnv(gym.Env):
 
             for stock_name, num_shares in actions.items():
                 if num_shares > 0:
+                    with open("./src/gym_trading/logs/action_history_6.txt", "a") as file:
+                        file.write(f"  {stock_name}: {num_shares} stocks\n\n")
                     print(f"  {stock_name}: {num_shares} stocks")

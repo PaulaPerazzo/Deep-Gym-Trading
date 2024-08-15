@@ -109,7 +109,8 @@ class RiskReturnCriteria:
         number_of_years = len(self.portfolio_values) / self.trading_days_per_year
         annualized_return = (total_return ** (1 / number_of_years)) - 1
     
-        max_drawdown = self.max_drawdown()
+        risk_criteria = RiskCriteria(returns=self.returns, portfolio_values=self.portfolio_values)
+        max_drawdown = risk_criteria.max_drawdown()
         calmar_ratio = annualized_return / max_drawdown
         
         return calmar_ratio
