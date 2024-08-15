@@ -119,7 +119,10 @@ class Agent:
                 if action_tensor.dim() > 1:
                     action_tensor = action_tensor.squeeze()
 
-                actor_loss = -torch.log(probs[action_tensor] + 1e-6) * error.detach()
+                if len(probs) == 30:
+                    actor_loss = -torch.log(probs[action_tensor - 1] + 1e-6) * error.detach()
+                else:
+                    actor_loss = -torch.log(probs[action_tensor] + 1e-6) * error.detach()
 
                 loss = (actor_loss + critic_loss).mean()
                 self.optimizer.zero_grad()
