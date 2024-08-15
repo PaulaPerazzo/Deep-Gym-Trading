@@ -72,6 +72,7 @@ class PortfolioEnv(gym.Env):
         current_prices = self.stock_data.iloc[self.current_step].values
         previous_prices = self.stock_data.iloc[self.current_step - 1].values
 
+        print(self.index_data)
         index_price_curr = self.index_data.iloc[self.current_step].values
         index_price_prev = self.index_data.iloc[self.current_step - 1].values
 
