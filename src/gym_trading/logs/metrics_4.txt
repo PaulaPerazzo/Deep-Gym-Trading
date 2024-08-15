@@ -1,0 +1,11 @@
+AGENT 2
+
+Profit Criteria:
+Anualized return: -0.8243012878233157
+Risk Criteria:
+Annualized volatility: 58.79096411177158
+Max drawdown: 0.9948285616606982
+Risk-Return Criteria:
+Sharpe Ratio: 5.271333745770016
+Calmar Ratio: -0.8285862706306742
+Sortino Ratio: 73.82041496717054

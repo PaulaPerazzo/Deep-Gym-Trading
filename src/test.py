@@ -8,7 +8,7 @@ from metrics.criteria import ProfitCriteria, RiskCriteria, RiskReturnCriteria
 
 def main():
     # Carregar os dados de ações e índice
-    stock_data = pd.read_csv("./data/data_2022_to_2023.csv")
+    stock_data = pd.read_csv("./data/data_2023.csv")
 
     stock_data = stock_data.set_index("Ticker")
     index_data = stock_data.copy()
@@ -29,7 +29,7 @@ def main():
     print("ActorCritic initialized.")
 
     # Carregar o modelo treinado
-    model_path = "./models/actor_critic_oficial.pth"
+    model_path = "./models/actor_critic_oficial_2.pth"
     actor_critic.load_state_dict(torch.load(model_path))
     actor_critic.eval()
     print("Model loaded.")
@@ -46,6 +46,9 @@ def main():
     selected_stocks = []
     portfolio_values = []
 
+    initial_portfolio_value = 100000  # Example initial value in cash
+    current_portfolio_value = initial_portfolio_value
+
     while not done:
         state_tensor = torch.FloatTensor(state).unsqueeze(0)
         action = agent.decide_action(state_tensor, max_share=30).numpy().flatten()
@@ -58,12 +61,16 @@ def main():
         selected = [stock_names[i] for i, num in enumerate(action) if num > 0]
         selected_stocks.append(selected)
 
-        # safeguard index out of range
         if env.current_step < len(env.stock_data):
             # Calculate the current portfolio value
             current_prices = env.stock_data.iloc[env.current_step].values
-            portfolio_value = sum(action[i] * current_prices[i] for i in range(len(action)))
-            portfolio_values.append(portfolio_value)
+            current_investment_value = sum(action[i] * current_prices[i] for i in range(len(action)))
+
+            # Update portfolio value based on the new investments
+            current_portfolio_value = current_investment_value + current_portfolio_value
+
+            # Append the updated portfolio value to the list
+            portfolio_values.append(current_portfolio_value)
         else:
             print(f"Warning: current_step {env.current_step} is out of bounds. Skipping this step.")
             done = True
@@ -72,13 +79,13 @@ def main():
     for step, stocks in enumerate(selected_stocks):
         print(f"Step {step+1}: {stocks}")
 
-        with open("./src/gym_trading/logs/testing_1.txt", "a") as file:
+        with open("./src/gym_trading/logs/testing_6.txt", "a") as file:
             file.write(f"Step {step+1}: {stocks}\n")
 
     env.print_action_history()
     print("Total reward:", rewards)
 
-    with open("./src/gym_trading/logs/testing_1.txt", "a") as file:
+    with open("./src/gym_trading/logs/testing_6.txt", "a") as file:
         file.write(f"Total reward: {rewards}\n")
     
     returns = np.diff(portfolio_values) / portfolio_values[:-1]
@@ -103,6 +110,17 @@ def main():
     print(f"Sharpe Ratio: {sharpe_ratio}")
     print(f"Calmar Ratio: {calmar_ratio}")
     print(f"Sortino Ratio: {sortino_ratio}")
+
+    with open("./src/gym_trading/logs/metrics_6.txt", "a") as file:
+        file.write("Profit Criteria:\n")
+        file.write(f"Anualized return: {arr}\n")
+        file.write("Risk Criteria:\n")
+        file.write(f"Annualized volatility: {avol}\n")
+        file.write(f"Max drawdown: {mdd}\n")
+        file.write("Risk-Return Criteria:\n")
+        file.write(f"Sharpe Ratio: {sharpe_ratio}\n")
+        file.write(f"Calmar Ratio: {calmar_ratio}\n")
+        file.write(f"Sortino Ratio: {sortino_ratio}\n")
 
 
 if __name__ == "__main__":

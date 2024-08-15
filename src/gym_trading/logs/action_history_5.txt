@@ -1,0 +1,872 @@
+AGENT 1
+
+  CPLE3.SA.4: 4 stocks
+
+  COCE3.SA.4: 26 stocks
+
+  PFRM3.SA.4: 30 stocks
+
+  SLED3.SA.4: 3 stocks
+
+  RDNI3.SA.4: 27 stocks
+
+  HOOT4.SA.4: 21 stocks
+
+  SANB3.SA.4: 9 stocks
+
+  BMIN4.SA.4: 30 stocks
+
+  MRVE3.SA.4: 16 stocks
+
+  CEEB3.SA.4: 14 stocks
+
+  ATOM3.SA.4: 26 stocks
+
+  GSHP3.SA.4: 4 stocks
+
+  BAHI3.SA.4: 30 stocks
+
+  MRVE3.SA.4: 1 stocks
+
+  PETR4.SA.4: 29 stocks
+
+  MRVE3.SA.4: 11 stocks
+
+  RANI3.SA.4: 18 stocks
+
+  JFEN3.SA.4: 1 stocks
+
+  CEDO3.SA.4: 10 stocks
+
+  BSLI4.SA.4: 18 stocks
+
+  HOOT4.SA.4: 2 stocks
+
+  MGEL4.SA.4: 7 stocks
+
+  BMIN3.SA.4: 11 stocks
+
+  ODPV3.SA.4: 12 stocks
+
+  TELB3.SA.4: 24 stocks
+
+  CTSA4.SA.4: 6 stocks
+
+  AMAR3.SA.4: 1 stocks
+
+  CTNM3.SA.4: 23 stocks
+
+  GOAU3.SA.4: 6 stocks
+
+  CRPG5.SA.4: 30 stocks
+
+  SAPR4.SA.4: 30 stocks
+
+  EUCA4.SA.4: 1 stocks
+
+  RADL3.SA.4: 29 stocks
+
+  JBSS3.SA.4: 30 stocks
+
+  EALT4.SA.4: 30 stocks
+
+  CRPG6.SA.4: 9 stocks
+
+  ABCB4.SA.4: 21 stocks
+
+  ALPA3.SA.4: 3 stocks
+
+  MEAL3.SA.4: 27 stocks
+
+  LIGT3.SA.4: 8 stocks
+
+  WLMM4.SA.4: 12 stocks
+
+  CEEB5.SA.4: 10 stocks
+
+  ITSA4.SA.4: 30 stocks
+
+  RNEW3.SA.4: 30 stocks
+
+  CPLE3.SA.4: 30 stocks
+
+  SOND5.SA.4: 30 stocks
+
+  BBSE3.SA.4: 30 stocks
+
+  RPAD6.SA.4: 25 stocks
+
+  CSMG3.SA.4: 5 stocks
+
+  MTSA4.SA.4: 17 stocks
+
+  BRAP4.SA.4: 11 stocks
+
+  ALPA4.SA.4: 2 stocks
+
+  BALM4.SA.4: 3 stocks
+
+  MOAR3.SA.4: 27 stocks
+
+  MGEL4.SA.4: 12 stocks
+
+  BRKM3.SA.4: 18 stocks
+
+  EALT4.SA.4: 30 stocks
+
+  PDGR3.SA.4: 1 stocks
+
+  SAPR4.SA.4: 29 stocks
+
+  HBTS5.SA.4: 30 stocks
+
+  BPAC5.SA.4: 30 stocks
+
+  DASA3.SA.4: 19 stocks
+
+  UGPA3.SA.4: 11 stocks
+
+  RPMG3.SA.4: 30 stocks
+
+  TRIS3.SA.4: 5 stocks
+
+  BMKS3.SA.4: 25 stocks
+
+  LIGT3.SA.4: 7 stocks
+
+  GEPA3.SA.4: 9 stocks
+
+  BRSR5.SA.4: 14 stocks
+
+  AMAR3.SA.4: 30 stocks
+
+  BRIV3.SA.4: 30 stocks
+
+  CSNA3.SA.4: 18 stocks
+
+  TELB4.SA.4: 12 stocks
+
+  BPAN4.SA.4: 4 stocks
+
+  ENEV3.SA.4: 26 stocks
+
+  GPAR3.SA.4: 30 stocks
+
+  RPAD5.SA.4: 30 stocks
+
+  TGMA3.SA.4: 12 stocks
+
+  PMAM3.SA.4: 7 stocks
+
+  LUPA3.SA.4: 11 stocks
+
+  SGPS3.SA.4: 30 stocks
+
+  CEBR3.SA.4: 30 stocks
+
+  BRPR3.SA.4: 25 stocks
+
+  ITUB4.SA.4: 5 stocks
+
+  ITUB3.SA.4: 9 stocks
+
+  BPAN4.SA.4: 21 stocks
+
+  KLBN4.SA.4: 3 stocks
+
+  RANI3.SA.4: 27 stocks
+
+  TUPY3.SA.4: 23 stocks
+
+  WLMM4.SA.4: 5 stocks
+
+  TRPL4.SA.4: 2 stocks
+
+  BNBR3.SA.4: 29 stocks
+
+  MWET4.SA.4: 1 stocks
+
+  KLBN4.SA.4: 8 stocks
+
+  CTNM4.SA.4: 9 stocks
+
+  TRPL4.SA.4: 13 stocks
+
+  VLID3.SA.4: 3 stocks
+
+  RDNI3.SA.4: 19 stocks
+
+  ENGI3.SA.4: 8 stocks
+
+  CGRA3.SA.4: 5 stocks
+
+  ENGI3.SA.4: 25 stocks
+
+  CSMG3.SA.4: 30 stocks
+
+  FHER3.SA.4: 30 stocks
+
+  BRIV4.SA.4: 30 stocks
+
+  LEVE3.SA.4: 30 stocks
+
+  SNSY5.SA.4: 10 stocks
+
+  TUPY3.SA.4: 19 stocks
+
+  JFEN3.SA.4: 1 stocks
+
+  EKTR4.SA.4: 29 stocks
+
+  LIGT3.SA.4: 1 stocks
+
+  BPAC3.SA.4: 28 stocks
+
+  HAGA3.SA.4: 2 stocks
+
+  MULT3.SA.4: 17 stocks
+
+  TAEE3.SA.4: 13 stocks
+
+  BGIP4.SA.4: 6 stocks
+
+  MAPT3.SA.4: 24 stocks
+
+  YDUQ3.SA.4: 12 stocks
+
+  BRSR3.SA.4: 18 stocks
+
+  PFRM3.SA.4: 27 stocks
+
+  ENEV3.SA.4: 3 stocks
+
+  BAHI3.SA.4: 30 stocks
+
+  ITUB3.SA.4: 8 stocks
+
+  VIVT3.SA.4: 22 stocks
+
+  LUXM4.SA.4: 30 stocks
+
+  BRFS3.SA.4: 22 stocks
+
+  BGIP3.SA.4: 8 stocks
+
+  MTSA4.SA.4: 6 stocks
+
+  BIOM3.SA.4: 1 stocks
+
+  MEAL3.SA.4: 23 stocks
+
+  FESA4.SA.4: 22 stocks
+
+  RCSL4.SA.4: 8 stocks
+
+  HBOR3.SA.4: 24 stocks
+
+  MOAR3.SA.4: 6 stocks
+
+  MWET4.SA.4: 30 stocks
+
+  CTKA4.SA.4: 30 stocks
+
+  BEEF3.SA.4: 11 stocks
+
+  RADL3.SA.4: 14 stocks
+
+  VALE3.SA.4: 5 stocks
+
+  HOOT4.SA.4: 18 stocks
+
+  BRSR5.SA.4: 12 stocks
+
+  ALUP4.SA.4: 30 stocks
+
+  PATI3.SA.4: 30 stocks
+
+  CGAS5.SA.4: 15 stocks
+
+  MOAR3.SA.4: 15 stocks
+
+  GOLL4.SA.4: 30 stocks
+
+  BRAP3.SA.4: 10 stocks
+
+  EALT3.SA.4: 20 stocks
+
+  BRAP4.SA.4: 30 stocks
+
+  SLCE3.SA.4: 30 stocks
+
+  BBAS3.SA.4: 30 stocks
+
+  HYPE3.SA.4: 30 stocks
+
+  RSID3.SA.4: 3 stocks
+
+  EZTC3.SA.4: 27 stocks
+
+  CORR4.SA.4: 6 stocks
+
+  WEGE3.SA.4: 24 stocks
+
+  GGBR3.SA.4: 30 stocks
+
+  FHER3.SA.4: 30 stocks
+
+  TGMA3.SA.4: 1 stocks
+
+  BRSR5.SA.4: 22 stocks
+
+  PATI4.SA.4: 7 stocks
+
+  GEPA4.SA.4: 30 stocks
+
+  CLSC4.SA.4: 30 stocks
+
+  BNBR3.SA.4: 20 stocks
+
+  BAUH4.SA.4: 10 stocks
+
+  BBDC4.SA.4: 30 stocks
+
+  ENGI4.SA.4: 3 stocks
+
+  MTSA4.SA.4: 21 stocks
+
+  PEAB4.SA.4: 6 stocks
+
+  RPAD6.SA.4: 8 stocks
+
+  BDLL4.SA.4: 13 stocks
+
+  ALUP4.SA.4: 9 stocks
+
+  SOND5.SA.4: 30 stocks
+
+  BPHA3.SA.4: 30 stocks
+
+  GOAU4.SA.4: 11 stocks
+
+  MSPA3.SA.4: 19 stocks
+
+  ATOM3.SA.4: 30 stocks
+
+  TASA4.SA.4: 12 stocks
+
+  BRKM5.SA.4: 18 stocks
+
+  CTSA3.SA.4: 13 stocks
+
+  MERC4.SA.4: 4 stocks
+
+  SANB4.SA.4: 13 stocks
+
+  FHER3.SA.4: 20 stocks
+
+  PATI4.SA.4: 9 stocks
+
+  STBP3.SA.4: 1 stocks
+
+  BPAC3.SA.4: 1 stocks
+
+  GEPA4.SA.4: 10 stocks
+
+  GOAU4.SA.4: 19 stocks
+
+  SLED3.SA.4: 20 stocks
+
+  SBSP3.SA.4: 1 stocks
+
+  ALUP3.SA.4: 9 stocks
+
+  CRIV4.SA.4: 25 stocks
+
+  SEER3.SA.4: 5 stocks
+
+  USIM3.SA.4: 7 stocks
+
+  BAZA3.SA.4: 21 stocks
+
+  GPAR3.SA.4: 2 stocks
+
+  RANI3.SA.4: 30 stocks
+
+  CEDO3.SA.4: 28 stocks
+
+  RAIL3.SA.4: 2 stocks
+
+  VLID3.SA.4: 5 stocks
+
+  EALT3.SA.4: 25 stocks
+
+  OIBR4.SA.4: 1 stocks
+
+  SLCE3.SA.4: 29 stocks
+
+  GOAU4.SA.4: 29 stocks
+
+  MSPA3.SA.4: 1 stocks
+
+  CEEB5.SA.4: 27 stocks
+
+  GOAU3.SA.4: 3 stocks
+
+  BRSR6.SA.4: 30 stocks
+
+  BPHA3.SA.4: 30 stocks
+
+  CEDO4.SA.4: 30 stocks
+
+  SLCE3.SA.4: 30 stocks
+
+  GGBR4.SA.4: 5 stocks
+
+  VIVR3.SA.4: 23 stocks
+
+  MGLU3.SA.4: 2 stocks
+
+  BRAP4.SA.4: 6 stocks
+
+  MRFG3.SA.4: 24 stocks
+
+  ABCB4.SA.4: 9 stocks
+
+  HETA4.SA.4: 9 stocks
+
+  GUAR3.SA.4: 12 stocks
+
+  CPLE6.SA.4: 30 stocks
+
+  GEPA3.SA.4: 12 stocks
+
+  ALUP3.SA.4: 18 stocks
+
+  MILS3.SA.4: 30 stocks
+
+  ITSA3.SA.4: 15 stocks
+
+  LEVE3.SA.4: 15 stocks
+
+  GEPA4.SA.4: 30 stocks
+
+  PRIO3.SA.4: 30 stocks
+
+  HBOR3.SA.4: 30 stocks
+
+  RCSL3.SA.4: 14 stocks
+
+  BBSE3.SA.4: 16 stocks
+
+  GUAR3.SA.4: 30 stocks
+
+  LUXM4.SA.4: 30 stocks
+
+  PRIO3.SA.4: 30 stocks
+
+  EUCA4.SA.4: 30 stocks
+
+  SNSY5.SA.4: 22 stocks
+
+  TRPL4.SA.4: 8 stocks
+
+  SAPR4.SA.4: 30 stocks
+
+  BALM4.SA.4: 9 stocks
+
+  SGPS3.SA.4: 5 stocks
+
+  AGRO3.SA.4: 16 stocks
+
+  FRAS3.SA.4: 8 stocks
+
+  VALE3.SA.4: 22 stocks
+
+  COCE5.SA.4: 6 stocks
+
+  RSID3.SA.4: 4 stocks
+
+  ALPA4.SA.4: 20 stocks
+
+  BRGE6.SA.4: 30 stocks
+
+  BRGE6.SA.4: 11 stocks
+
+  YDUQ3.SA.4: 12 stocks
+
+  CMIG3.SA.4: 7 stocks
+
+  CEDO3.SA.4: 18 stocks
+
+  LIGT3.SA.4: 3 stocks
+
+  PDGR3.SA.4: 9 stocks
+
+  EQTL3.SA.4: 30 stocks
+
+  AHEB3.SA.4: 30 stocks
+
+  CSMG3.SA.4: 30 stocks
+
+  ROMI3.SA.4: 30 stocks
+
+  CEDO3.SA.4: 30 stocks
+
+  TRPL3.SA.4: 8 stocks
+
+  PTBL3.SA.4: 22 stocks
+
+  DOHL4.SA.4: 21 stocks
+
+  GOLL4.SA.4: 9 stocks
+
+  BRSR5.SA.4: 25 stocks
+
+  VULC3.SA.4: 5 stocks
+
+  LIGT3.SA.4: 12 stocks
+
+  TCSA3.SA.4: 18 stocks
+
+  SBSP3.SA.4: 5 stocks
+
+  MSPA3.SA.4: 16 stocks
+
+  AGRO3.SA.4: 9 stocks
+
+  EZTC3.SA.4: 19 stocks
+
+  RENT3.SA.4: 11 stocks
+
+  CTSA3.SA.4: 20 stocks
+
+  OIBR3.SA.4: 10 stocks
+
+  COGN3.SA.4: 4 stocks
+
+  BMEB3.SA.4: 26 stocks
+
+  BMEB4.SA.4: 11 stocks
+
+  BBDC4.SA.4: 19 stocks
+
+  MILS3.SA.4: 23 stocks
+
+  TAEE3.SA.4: 7 stocks
+
+  ANIM3.SA.4: 16 stocks
+
+  MOAR3.SA.4: 4 stocks
+
+  LEVE3.SA.4: 10 stocks
+
+  PETR3.SA.4: 30 stocks
+
+  B3SA3.SA.4: 7 stocks
+
+  INEP3.SA.4: 20 stocks
+
+  ALPA3.SA.4: 3 stocks
+
+  VSPT3.SA.4: 24 stocks
+
+  PINE4.SA.4: 6 stocks
+
+  BALM3.SA.4: 30 stocks
+
+  TPIS3.SA.4: 28 stocks
+
+  PNVL3.SA.4: 2 stocks
+
+  AALR3.SA.4: 9 stocks
+
+  TUPY3.SA.4: 21 stocks
+
+  RCSL4.SA.4: 30 stocks
+
+  BEES3.SA.4: 30 stocks
+
+  AALR3.SA.4: 24 stocks
+
+  LEVE3.SA.4: 5 stocks
+
+  MRFG3.SA.4: 1 stocks
+
+  TELB3.SA.4: 11 stocks
+
+  BAUH4.SA.4: 19 stocks
+
+  SHUL4.SA.4: 30 stocks
+
+  CBEE3.SA.4: 13 stocks
+
+  BBAS3.SA.4: 17 stocks
+
+  CEDO3.SA.4: 28 stocks
+
+  TECN3.SA.4: 2 stocks
+
+  MGLU3.SA.4: 30 stocks
+
+  BBDC3.SA.4: 1 stocks
+
+  VULC3.SA.4: 29 stocks
+
+  CTSA4.SA.4: 21 stocks
+
+  DOHL4.SA.4: 9 stocks
+
+  JFEN3.SA.4: 30 stocks
+
+  PFRM3.SA.4: 30 stocks
+
+  SLED3.SA.4: 27 stocks
+
+  CTKA4.SA.4: 3 stocks
+
+  CIEL3.SA.4: 12 stocks
+
+  KEPL3.SA.4: 5 stocks
+
+  ALUP3.SA.4: 13 stocks
+
+  MTSA4.SA.4: 30 stocks
+
+  OIBR4.SA.4: 20 stocks
+
+  RSID3.SA.4: 10 stocks
+
+  BRSR3.SA.4: 12 stocks
+
+  ITSA3.SA.4: 18 stocks
+
+  FLRY3.SA.4: 19 stocks
+
+  GUAR3.SA.4: 11 stocks
+
+  FESA3.SA.4: 30 stocks
+
+  SLED3.SA.4: 15 stocks
+
+  INEP3.SA.4: 11 stocks
+
+  TECN3.SA.4: 4 stocks
+
+  HAGA4.SA.4: 4 stocks
+
+  MAPT3.SA.4: 26 stocks
+
+  MILS3.SA.4: 28 stocks
+
+  MEAL3.SA.4: 2 stocks
+
+  FLRY3.SA.4: 3 stocks
+
+  MERC4.SA.4: 10 stocks
+
+  JOPA4.SA.4: 7 stocks
+
+  SCAR3.SA.4: 10 stocks
+
+  BAZA3.SA.4: 27 stocks
+
+  TRPL3.SA.4: 3 stocks
+
+  CBEE3.SA.4: 30 stocks
+
+  CEDO4.SA.4: 30 stocks
+
+  TEND3.SA.4: 12 stocks
+
+  PLAS3.SA.4: 18 stocks
+
+  DASA3.SA.4: 30 stocks
+
+  ENMT4.SA.4: 13 stocks
+
+  UCAS3.SA.4: 10 stocks
+
+  STBP3.SA.4: 7 stocks
+
+  RSID3.SA.4: 30 stocks
+
+  VIVT3.SA.4: 6 stocks
+
+  GOAU3.SA.4: 24 stocks
+
+  EKTR4.SA.4: 10 stocks
+
+  BBDC4.SA.4: 4 stocks
+
+  SHUL4.SA.4: 16 stocks
+
+  TELB3.SA.4: 6 stocks
+
+  MNPR3.SA.4: 24 stocks
+
+  ARZZ3.SA.4: 30 stocks
+
+  GOAU3.SA.4: 30 stocks
+
+  B3SA3.SA.4: 29 stocks
+
+  CBEE3.SA.4: 1 stocks
+
+  SHUL4.SA.4: 30 stocks
+
+  JHSF3.SA.4: 20 stocks
+
+  JOPA4.SA.4: 10 stocks
+
+  RADL3.SA.4: 30 stocks
+
+  CRPG6.SA.4: 24 stocks
+
+  HETA4.SA.4: 6 stocks
+
+  PETR4.SA.4: 17 stocks
+
+  ALUP4.SA.4: 12 stocks
+
+  CSAN3.SA.4: 1 stocks
+
+  FHER3.SA.4: 18 stocks
+
+  CEEB5.SA.4: 12 stocks
+
+  POMO4.SA.4: 30 stocks
+
+  BIOM3.SA.4: 30 stocks
+
+  PATI3.SA.4: 30 stocks
+
+  FHER3.SA.4: 26 stocks
+
+  ALPA4.SA.4: 4 stocks
+
+  BBAS3.SA.4: 3 stocks
+
+  CPFE3.SA.4: 27 stocks
+
+  GOAU3.SA.4: 30 stocks
+
+  JOPA3.SA.4: 30 stocks
+
+  ATOM3.SA.4: 15 stocks
+
+  BPAN4.SA.4: 15 stocks
+
+  BRFS3.SA.4: 27 stocks
+
+  GRND3.SA.4: 3 stocks
+
+  JBSS3.SA.4: 30 stocks
+
+  SLED3.SA.4: 10 stocks
+
+  BMKS3.SA.4: 20 stocks
+
+  ITSA4.SA.4: 23 stocks
+
+  BPHA3.SA.4: 7 stocks
+
+  VIVT3.SA.4: 30 stocks
+
+  YDUQ3.SA.4: 10 stocks
+
+  AALR3.SA.4: 20 stocks
+
+  RNEW3.SA.4: 30 stocks
+
+  TEND3.SA.4: 30 stocks
+
+  BAZA3.SA.4: 1 stocks
+
+  MGEL4.SA.4: 22 stocks
+
+  MYPK3.SA.4: 7 stocks
+
+  PATI4.SA.4: 2 stocks
+
+  CSAN3.SA.4: 28 stocks
+
+  HAGA4.SA.4: 2 stocks
+
+  EMBR3.SA.4: 28 stocks
+
+  CTSA3.SA.4: 16 stocks
+
+  EALT3.SA.4: 14 stocks
+
+  BEES3.SA.4: 30 stocks
+
+  JFEN3.SA.4: 19 stocks
+
+  CSAN3.SA.4: 11 stocks
+
+  PATI3.SA.4: 19 stocks
+
+  BMIN4.SA.4: 11 stocks
+
+  LIGT3.SA.4: 8 stocks
+
+  OIBR4.SA.4: 22 stocks
+
+  HBOR3.SA.4: 20 stocks
+
+  PSSA3.SA.4: 10 stocks
+
+  DASA3.SA.4: 6 stocks
+
+  TUPY3.SA.4: 19 stocks
+
+  LREN3.SA.4: 4 stocks
+
+  CEEB3.SA.4: 1 stocks
+
+  ITUB4.SA.4: 30 stocks
+
+  SAPR3.SA.4: 30 stocks
+
+  JFEN3.SA.4: 30 stocks
+
+  SEER3.SA.4: 30 stocks
+
+  GUAR3.SA.4: 30 stocks
+
+  FLRY3.SA.4: 30 stocks
+
+  VIVT3.SA.4: 8 stocks
+
+  TOTS3.SA.4: 22 stocks
+
+  GGBR4.SA.4: 13 stocks
+
+  SAPR4.SA.4: 17 stocks
+
+  RNEW3.SA.4: 10 stocks
+
+  CEED3.SA.4: 20 stocks
+
+  CEDO3.SA.4: 24 stocks
+
+  PTBL3.SA.4: 6 stocks
+
+  GOAU4.SA.4: 30 stocks
+
+  ETER3.SA.4: 2 stocks
+
+  SMTO3.SA.4: 28 stocks
+
+  RCSL3.SA.4: 26 stocks
+
+  PNVL3.SA.4: 1 stocks
+
+  PLAS3.SA.4: 1 stocks
+
+  TECN3.SA.4: 2 stocks
+
+  CSMG3.SA.4: 19 stocks
+
+  TCSA3.SA.4: 11 stocks
+
