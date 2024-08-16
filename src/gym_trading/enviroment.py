@@ -1,3 +1,4 @@
+import os
 import gymnasium as gym
 import numpy as np
 import pandas as pd
@@ -72,7 +73,6 @@ class PortfolioEnv(gym.Env):
         current_prices = self.stock_data.iloc[self.current_step].values
         previous_prices = self.stock_data.iloc[self.current_step - 1].values
 
-        print(self.index_data)
         index_price_curr = self.index_data.iloc[self.current_step].values
         index_price_prev = self.index_data.iloc[self.current_step - 1].values
 
@@ -101,6 +101,12 @@ class PortfolioEnv(gym.Env):
 
             for stock_name, num_shares in actions.items():
                 if num_shares > 0:
-                    with open("./src/gym_trading/logs/action_history_6.txt", "a") as file:
+                    # verify if the path exists
+                    file_path = "./src/gym_trading/logs/action_history_dow_jones.txt"
+                    
+                    if not os.path.exists(file_path):
+                        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
+                    with open(file_path, "a") as file:
                         file.write(f"  {stock_name}: {num_shares} stocks\n\n")
                     print(f"  {stock_name}: {num_shares} stocks")

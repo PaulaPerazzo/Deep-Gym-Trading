@@ -37,7 +37,10 @@ class Agent:
         state = state.reshape(1, -1)  # This will flatten [1, 10, 285] to [1, 2850]
 
         if torch.rand(1) < self.eps:
-            action = torch.randint(0, state.shape[1], size=(1, 285))
+            state_shape_1 = (int(state.shape[1]) / 10)
+            action = torch.randint(0, state.shape[1], size=(1, state_shape_1))
+            # action = torch.randint(0, state.shape[1], size=(1, 285))
+            # action = torch.randint(0, state.shape[1], size=(1, 30))
         
         else:
             with torch.no_grad():
