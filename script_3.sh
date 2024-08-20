@@ -14,4 +14,4 @@ module load Python/3.8
 source env/bin/activate
 
 # executar .py
-python3 src/ibovespa/post_pandemic.py
+python3 src/ibovespa/post-pandemic.py
