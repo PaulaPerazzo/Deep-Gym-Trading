@@ -12,3 +12,5 @@ env
 .venv
 ./.venv
 /.venv
+
+mailer.py

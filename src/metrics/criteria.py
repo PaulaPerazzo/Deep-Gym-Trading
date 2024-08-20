@@ -111,7 +111,11 @@ class RiskReturnCriteria:
     
         risk_criteria = RiskCriteria(returns=self.returns, portfolio_values=self.portfolio_values)
         max_drawdown = risk_criteria.max_drawdown()
-        calmar_ratio = annualized_return / max_drawdown
+
+        if max_drawdown == 0:
+            calmar_ratio = np.inf
+        else:
+            calmar_ratio = annualized_return / max_drawdown
         
         return calmar_ratio
 
@@ -120,7 +124,15 @@ class RiskReturnCriteria:
         excess_returns = self.returns - self.risk_free_rate / self.trading_days_per_year
         downside_returns = excess_returns[excess_returns < 0]
         annualized_return = np.mean(excess_returns) * self.trading_days_per_year
+
+        if len(downside_returns) == 0:
+            return np.nan # Return NaN if there are no downside risk
+
         downside_deviation = np.std(downside_returns) * np.sqrt(self.trading_days_per_year)
+
+        if downside_deviation == 0:
+            return np.nan
+        
         sortino_ratio = annualized_return / downside_deviation
         
         return sortino_ratio

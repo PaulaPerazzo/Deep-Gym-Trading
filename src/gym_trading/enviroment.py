@@ -93,7 +93,13 @@ class PortfolioEnv(gym.Env):
         pass
 
 
-    def print_action_history(self):
+    def print_action_history(self, period):
+        # verify if the path exists
+        file_path = f"./src/ibovespa/logs/action_history_{period}.txt"
+        
+        if not os.path.exists(file_path):
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
         print("Choosen actions: ")
 
         for step, actions in enumerate(self.action_history):
@@ -101,12 +107,7 @@ class PortfolioEnv(gym.Env):
 
             for stock_name, num_shares in actions.items():
                 if num_shares > 0:
-                    # verify if the path exists
-                    file_path = "./src/gym_trading/logs/action_history_dow_jones.txt"
-                    
-                    if not os.path.exists(file_path):
-                        os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
                     with open(file_path, "a") as file:
-                        file.write(f"  {stock_name}: {num_shares} stocks\n\n")
+                        file.write(f"  {stock_name}: {num_shares} stocks\n")
                     print(f"  {stock_name}: {num_shares} stocks")

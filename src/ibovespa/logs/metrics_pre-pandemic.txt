@@ -1,0 +1,9 @@
+Profit Criteria:
+Anualized return: 2.3888778024585986
+Risk Criteria:
+Annualized volatility: 0.8125866141785706
+Max drawdown: 0.0
+Risk-Return Criteria:
+Sharpe Ratio: 1.7696180993257258
+Calmar Ratio: inf
+Sortino Ratio: nan
