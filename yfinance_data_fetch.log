@@ -1,0 +1,884 @@
+INFO:root:Successfully retrieved data for AAPL
+INFO:root:Successfully retrieved data for MSFT
+INFO:root:Successfully retrieved data for V
+INFO:root:Successfully retrieved data for JNJ
+INFO:root:Successfully retrieved data for PG
+INFO:root:Successfully retrieved data for JPM
+INFO:root:Successfully retrieved data for UNH
+INFO:root:Successfully retrieved data for HD
+INFO:root:Successfully retrieved data for VZ
+INFO:root:Successfully retrieved data for KO
+INFO:root:Successfully retrieved data for BA
+INFO:root:Successfully retrieved data for GM
+INFO:root:Successfully retrieved data for CVX
+INFO:root:Successfully retrieved data for C
+INFO:root:Successfully retrieved data for BAC
+INFO:root:Successfully retrieved data for T
+INFO:root:Successfully retrieved data for CAT
+INFO:root:Successfully retrieved data for INTC
+INFO:root:Successfully retrieved data for MSFT
+INFO:root:Successfully retrieved data for AA
+INFO:root:Successfully retrieved data for F
+INFO:root:Successfully retrieved data for EBAY
+INFO:root:Successfully retrieved data for DELL
+INFO:root:Successfully retrieved data for DIS
+INFO:root:Successfully retrieved data for DOW
+INFO:root:Successfully retrieved data for CSCO
+INFO:root:Successfully retrieved data for DE
+INFO:root:Successfully retrieved data for FDX
+INFO:root:Successfully retrieved data for GIS
+INFO:root:Successfully retrieved data for GLW
+INFO:root:Successfully retrieved data for GT
+INFO:root:Successfully retrieved data for GS
+INFO:root:Successfully retrieved data for JPM
+INFO:root:Successfully retrieved data for KMB
+INFO:root:Successfully retrieved data for KHC
+INFO:root:Successfully retrieved data for KO
+INFO:root:Successfully retrieved data for MCD
+INFO:root:Successfully retrieved data for LLY
+INFO:root:Successfully retrieved data for ORCL
+INFO:root:Successfully retrieved data for MRK
+INFO:root:Successfully retrieved data for MSI
+INFO:root:Successfully retrieved data for MMM
+INFO:root:Successfully retrieved data for ODP
+ERROR:yfinance:CAKFF: No data found, symbol may be delisted
+WARNING:root:No data available for CAKFF
+ERROR:root:Failed to retrieve data for CAKFF after 3 attempts
+INFO:root:Successfully retrieved data for PMMAF
+INFO:root:Successfully retrieved data for VRTX
+INFO:root:Successfully retrieved data for MNST
+INFO:root:Successfully retrieved data for TEVA
+INFO:root:Successfully retrieved data for FITB
+ERROR:yfinance:SHLDQ: No data found, symbol may be delisted
+WARNING:root:No data available for SHLDQ
+ERROR:root:Failed to retrieve data for SHLDQ after 3 attempts
+INFO:root:Successfully retrieved data for CTAS
+INFO:root:Successfully retrieved data for ADSK
+ERROR:yfinance:DISH: No data found, symbol may be delisted
+WARNING:root:No data available for DISH
+ERROR:root:Failed to retrieve data for DISH after 3 attempts
+INFO:root:Successfully retrieved data for GILD
+ERROR:yfinance:LIFE: No data found, symbol may be delisted
+WARNING:root:No data available for LIFE
+ERROR:root:Failed to retrieve data for LIFE after 3 attempts
+INFO:root:Successfully retrieved data for GOOGL
+INFO:root:Successfully retrieved data for FISV
+INFO:root:Successfully retrieved data for LBTYA
+ERROR:yfinance:PDLI: No data found, symbol may be delisted
+WARNING:root:No data available for PDLI
+ERROR:root:Failed to retrieve data for PDLI after 3 attempts
+INFO:root:Successfully retrieved data for ADBE
+INFO:root:Successfully retrieved data for BB
+INFO:root:Successfully retrieved data for QCOM
+ERROR:yfinance:SINA: No data found, symbol may be delisted
+WARNING:root:No data available for SINA
+ERROR:root:Failed to retrieve data for SINA after 3 attempts
+INFO:root:Successfully retrieved data for BIDU
+INFO:root:Successfully retrieved data for SOHU
+ERROR:yfinance:DISCA: No data found, symbol may be delisted
+WARNING:root:No data available for DISCA
+ERROR:root:Failed to retrieve data for DISCA after 3 attempts
+INFO:root:Successfully retrieved data for RBBN
+INFO:root:Successfully retrieved data for AMAT
+INFO:root:Successfully retrieved data for STLD
+INFO:root:Successfully retrieved data for CDNS
+ERROR:yfinance:BBBY: No data found, symbol may be delisted
+WARNING:root:No data available for BBBY
+ERROR:root:Failed to retrieve data for BBBY after 3 attempts
+INFO:root:Successfully retrieved data for MCHP
+INFO:root:Successfully retrieved data for WYNN
+INFO:root:Successfully retrieved data for ISRG
+INFO:root:Successfully retrieved data for NDAQ
+INFO:root:Successfully retrieved data for RYAAY
+INFO:root:Successfully retrieved data for APLO
+INFO:root:Successfully retrieved data for INFY
+INFO:root:Successfully retrieved data for JBLU
+ERROR:yfinance:SPAR: No data found, symbol may be delisted
+WARNING:root:No data available for SPAR
+ERROR:root:Failed to retrieve data for SPAR after 3 attempts
+INFO:root:Successfully retrieved data for HSIC
+INFO:root:Successfully retrieved data for PAYX
+INFO:root:Successfully retrieved data for VRSN
+INFO:root:Successfully retrieved data for AAPL
+INFO:root:Successfully retrieved data for FAST
+INFO:root:Successfully retrieved data for XRAY
+INFO:root:Successfully retrieved data for CROX
+INFO:root:Successfully retrieved data for ZION
+INFO:root:Successfully retrieved data for NTRS
+ERROR:yfinance:CTXS: No data found, symbol may be delisted
+WARNING:root:No data available for CTXS
+ERROR:root:Failed to retrieve data for CTXS after 3 attempts
+INFO:root:Successfully retrieved data for LAMR
+INFO:root:Successfully retrieved data for PTEN
+INFO:root:Successfully retrieved data for ATLC
+INFO:root:Successfully retrieved data for CHRW
+INFO:root:Successfully retrieved data for SIRI
+ERROR:yfinance:ALPN: No data found, symbol may be delisted
+WARNING:root:No data available for ALPN
+ERROR:root:Failed to retrieve data for ALPN after 3 attempts
+INFO:root:Successfully retrieved data for PCAR
+INFO:root:Successfully retrieved data for PAAS
+INFO:root:Successfully retrieved data for AMZN
+INFO:root:Successfully retrieved data for ROST
+INFO:root:Successfully retrieved data for VIAV
+INFO:root:Successfully retrieved data for NTES
+INFO:root:Successfully retrieved data for NTAP
+ERROR:yfinance:ETFC: No data found, symbol may be delisted
+WARNING:root:No data available for ETFC
+ERROR:root:Failed to retrieve data for ETFC after 3 attempts
+INFO:root:Successfully retrieved data for GRMN
+INFO:root:Successfully retrieved data for COST
+INFO:root:Successfully retrieved data for CHKP
+INFO:root:Successfully retrieved data for LRCX
+INFO:root:Successfully retrieved data for CIEN
+INFO:root:Successfully retrieved data for IAC
+INFO:root:Successfully retrieved data for INTU
+INFO:root:Successfully retrieved data for EXPE
+INFO:root:Successfully retrieved data for TCOM
+INFO:root:Successfully retrieved data for UTSI
+INFO:root:Successfully retrieved data for CTSH
+INFO:root:Successfully retrieved data for RMBS
+ERROR:yfinance:NIHD: No data found, symbol may be delisted
+WARNING:root:No data available for NIHD
+ERROR:root:Failed to retrieve data for NIHD after 3 attempts
+ERROR:yfinance:YRCW: No data found, symbol may be delisted
+WARNING:root:No data available for YRCW
+ERROR:root:Failed to retrieve data for YRCW after 3 attempts
+INFO:root:Successfully retrieved data for AKAM
+INFO:root:Successfully retrieved data for KLAC
+INFO:root:Successfully retrieved data for JNPR
+ERROR:yfinance:ATVI: No data found, symbol may be delisted
+WARNING:root:No data available for ATVI
+ERROR:root:Failed to retrieve data for ATVI after 3 attempts
+INFO:root:Successfully retrieved data for FLEX
+INFO:root:Successfully retrieved data for AMGN
+ERROR:yfinance:XLNX: No data found, symbol may be delisted
+WARNING:root:No data available for XLNX
+ERROR:root:Failed to retrieve data for XLNX after 3 attempts
+INFO:root:Successfully retrieved data for EXPD
+INFO:root:Successfully retrieved data for EA
+INFO:root:Successfully retrieved data for PDCO
+INFO:root:Successfully retrieved data for TROW
+INFO:root:Successfully retrieved data for BIIB
+INFO:root:Successfully retrieved data for QRTEA
+INFO:root:Successfully retrieved data for SCHW
+INFO:root:Successfully retrieved data for HBAN
+ERROR:yfinance:NLOK: No data found, symbol may be delisted
+WARNING:root:No data available for NLOK
+ERROR:root:Failed to retrieve data for NLOK after 3 attempts
+INFO:root:Successfully retrieved data for NVDA
+INFO:root:Successfully retrieved data for SRCL
+INFO:root:Successfully retrieved data for SBUX
+ERROR:yfinance:CELG: No data found, symbol may be delisted
+WARNING:root:No data available for CELG
+ERROR:root:Failed to retrieve data for CELG after 3 attempts
+INFO:root:Successfully retrieved data for CINF
+INFO:root:Successfully retrieved data for EXTR
+ERROR:yfinance:AAXN: No data found, symbol may be delisted
+WARNING:root:No data available for AAXN
+ERROR:root:Failed to retrieve data for AAXN after 3 attempts
+INFO:root:Successfully retrieved data for HOLX
+INFO:root:Successfully retrieved data for CMCSA
+ERROR:yfinance:CPST: No data found, symbol may be delisted
+WARNING:root:No data available for CPST
+ERROR:root:Failed to retrieve data for CPST after 3 attempts
+INFO:root:Successfully retrieved data for MRVL
+INFO:root:Successfully retrieved data for BLDP
+INFO:root:Successfully retrieved data for SIFY
+INFO:root:Successfully retrieved data for CDTI
+ERROR:yfinance:EUHMF: No data found, symbol may be delisted
+WARNING:root:No data available for EUHMF
+ERROR:root:Failed to retrieve data for EUHMF after 3 attempts
+INFO:root:Successfully retrieved data for IBGR
+INFO:root:Successfully retrieved data for MDT
+INFO:root:Successfully retrieved data for DOV
+INFO:root:Successfully retrieved data for ASH
+INFO:root:Successfully retrieved data for NOC
+INFO:root:Successfully retrieved data for MGM
+INFO:root:Successfully retrieved data for VNO
+INFO:root:Successfully retrieved data for MA
+INFO:root:Successfully retrieved data for AN
+INFO:root:Successfully retrieved data for FLR
+INFO:root:Successfully retrieved data for GD
+INFO:root:Successfully retrieved data for DTE
+INFO:root:Successfully retrieved data for ADI
+INFO:root:Successfully retrieved data for VFC
+ERROR:yfinance:AGN: No data found, symbol may be delisted
+WARNING:root:No data available for AGN
+ERROR:root:Failed to retrieve data for AGN after 3 attempts
+INFO:root:Successfully retrieved data for CAH
+INFO:root:Successfully retrieved data for XEL
+INFO:root:Successfully retrieved data for DHI
+INFO:root:Successfully retrieved data for IPG
+INFO:root:Successfully retrieved data for STI
+ERROR:yfinance:$BMS: possibly delisted; No price data found  (period=1y)
+WARNING:root:No data available for BMS
+ERROR:root:Failed to retrieve data for BMS after 3 attempts
+INFO:root:Successfully retrieved data for LMT
+INFO:root:Successfully retrieved data for WAT
+INFO:root:Successfully retrieved data for ACN
+INFO:root:Successfully retrieved data for D
+INFO:root:Successfully retrieved data for XOM
+INFO:root:Successfully retrieved data for CI
+ERROR:yfinance:PJC: No data found, symbol may be delisted
+WARNING:root:No data available for PJC
+ERROR:root:Failed to retrieve data for PJC after 3 attempts
+INFO:root:Successfully retrieved data for KGC
+INFO:root:Successfully retrieved data for PEG
+INFO:root:Successfully retrieved data for NI
+ERROR:yfinance:YGEHY: No data found, symbol may be delisted
+WARNING:root:No data available for YGEHY
+ERROR:root:Failed to retrieve data for YGEHY after 3 attempts
+INFO:root:Successfully retrieved data for ZBH
+INFO:root:Successfully retrieved data for CSX
+INFO:root:Successfully retrieved data for ICE
+INFO:root:Successfully retrieved data for LUV
+INFO:root:Successfully retrieved data for ITW
+INFO:root:Successfully retrieved data for DRI
+INFO:root:Successfully retrieved data for MAT
+ERROR:yfinance:BBT: No data found, symbol may be delisted
+WARNING:root:No data available for BBT
+ERROR:root:Failed to retrieve data for BBT after 3 attempts
+INFO:root:Successfully retrieved data for CCJ
+INFO:root:Successfully retrieved data for HAL
+INFO:root:Successfully retrieved data for PLD
+INFO:root:Successfully retrieved data for MKC
+INFO:root:Successfully retrieved data for GPS
+INFO:root:Successfully retrieved data for TEX
+INFO:root:Successfully retrieved data for HST
+INFO:root:Successfully retrieved data for EL
+INFO:root:Successfully retrieved data for IP
+INFO:root:Successfully retrieved data for EMR
+INFO:root:Successfully retrieved data for CLX
+INFO:root:Successfully retrieved data for COP
+INFO:root:Successfully retrieved data for CL
+ERROR:yfinance:RTN: No data found, symbol may be delisted
+WARNING:root:No data available for RTN
+ERROR:root:Failed to retrieve data for RTN after 3 attempts
+INFO:root:Successfully retrieved data for NE
+INFO:root:Successfully retrieved data for PNW
+INFO:root:Successfully retrieved data for RF
+INFO:root:Successfully retrieved data for CNP
+INFO:root:Successfully retrieved data for MET
+INFO:root:Successfully retrieved data for EXC
+INFO:root:Successfully retrieved data for BAX
+INFO:root:Successfully retrieved data for OXY
+INFO:root:Successfully retrieved data for S
+INFO:root:Successfully retrieved data for SO
+INFO:root:Successfully retrieved data for TPR
+INFO:root:Successfully retrieved data for LEN
+INFO:root:Successfully retrieved data for CPB
+ERROR:yfinance:CTL: No data found, symbol may be delisted
+WARNING:root:No data available for CTL
+ERROR:root:Failed to retrieve data for CTL after 3 attempts
+INFO:root:Successfully retrieved data for STT
+INFO:root:Successfully retrieved data for PGR
+INFO:root:Successfully retrieved data for HMY
+INFO:root:Successfully retrieved data for CLF
+INFO:root:Successfully retrieved data for VMC
+INFO:root:Successfully retrieved data for CNX
+INFO:root:Successfully retrieved data for PH
+INFO:root:Successfully retrieved data for TECK
+INFO:root:Successfully retrieved data for GPC
+INFO:root:Successfully retrieved data for CBRE
+INFO:root:Successfully retrieved data for DD
+INFO:root:Successfully retrieved data for IX
+INFO:root:Successfully retrieved data for SHW
+INFO:root:Successfully retrieved data for PFE
+ERROR:yfinance:DCMYY: No data found, symbol may be delisted
+WARNING:root:No data available for DCMYY
+ERROR:root:Failed to retrieve data for DCMYY after 3 attempts
+INFO:root:Successfully retrieved data for WFC
+INFO:root:Successfully retrieved data for MTW
+INFO:root:Successfully retrieved data for WMT
+INFO:root:Successfully retrieved data for EIX
+INFO:root:Successfully retrieved data for KBH
+INFO:root:Successfully retrieved data for SNA
+INFO:root:Successfully retrieved data for ATI
+INFO:root:Successfully retrieved data for XRX
+INFO:root:Successfully retrieved data for EFX
+INFO:root:Successfully retrieved data for GFI
+ERROR:yfinance:KNMCY: No data found, symbol may be delisted
+WARNING:root:No data available for KNMCY
+ERROR:root:Failed to retrieve data for KNMCY after 3 attempts
+INFO:root:Successfully retrieved data for MCK
+INFO:root:Successfully retrieved data for ETR
+INFO:root:Successfully retrieved data for CMS
+INFO:root:Successfully retrieved data for HMC
+INFO:root:Successfully retrieved data for AMP
+INFO:root:Successfully retrieved data for AIG
+INFO:root:Successfully retrieved data for RL
+INFO:root:Successfully retrieved data for LEG
+ERROR:yfinance:LB: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', 'ytd', 'max']
+WARNING:root:No data available for LB
+ERROR:root:Failed to retrieve data for LB after 3 attempts
+INFO:root:Successfully retrieved data for IFF
+INFO:root:Successfully retrieved data for PBR
+INFO:root:Successfully retrieved data for MHO
+INFO:root:Successfully retrieved data for GWW
+ERROR:yfinance:JCP: No data found, symbol may be delisted
+WARNING:root:No data available for JCP
+ERROR:root:Failed to retrieve data for JCP after 3 attempts
+INFO:root:Successfully retrieved data for DO
+INFO:root:Successfully retrieved data for STZ
+ERROR:yfinance:STVVY: No data found, symbol may be delisted
+WARNING:root:No data available for STVVY
+ERROR:root:Failed to retrieve data for STVVY after 3 attempts
+INFO:root:Successfully retrieved data for AMT
+INFO:root:Successfully retrieved data for TV
+INFO:root:Successfully retrieved data for PM
+INFO:root:Successfully retrieved data for FIS
+INFO:root:Successfully retrieved data for MO
+ERROR:yfinance:EP_PC: No data found, symbol may be delisted
+WARNING:root:No data available for EP_pc
+ERROR:root:Failed to retrieve data for EP_pc after 3 attempts
+INFO:root:Successfully retrieved data for STC
+ERROR:yfinance:CBS: No data found, symbol may be delisted
+WARNING:root:No data available for CBS
+ERROR:root:Failed to retrieve data for CBS after 3 attempts
+ERROR:yfinance:BLL: No data found, symbol may be delisted
+WARNING:root:No data available for BLL
+ERROR:root:Failed to retrieve data for BLL after 3 attempts
+INFO:root:Successfully retrieved data for HIG
+ERROR:yfinance:AKS: No data found, symbol may be delisted
+WARNING:root:No data available for AKS
+ERROR:root:Failed to retrieve data for AKS after 3 attempts
+INFO:root:Successfully retrieved data for HSY
+INFO:root:Successfully retrieved data for SITC
+INFO:root:Successfully retrieved data for DXC
+INFO:root:Successfully retrieved data for MS
+INFO:root:Successfully retrieved data for PNC
+INFO:root:Successfully retrieved data for WM
+ERROR:yfinance:ABC: No data found, symbol may be delisted
+WARNING:root:No data available for ABC
+ERROR:root:Failed to retrieve data for ABC after 3 attempts
+INFO:root:Successfully retrieved data for AIZ
+INFO:root:Successfully retrieved data for KR
+INFO:root:Successfully retrieved data for TAP
+INFO:root:Successfully retrieved data for HD
+INFO:root:Successfully retrieved data for BDX
+INFO:root:Successfully retrieved data for ARCH
+INFO:root:Successfully retrieved data for SJM
+ERROR:yfinance:VMW: No data found, symbol may be delisted
+WARNING:root:No data available for VMW
+ERROR:root:Failed to retrieve data for VMW after 3 attempts
+INFO:root:Successfully retrieved data for SEE
+INFO:root:Successfully retrieved data for BBY
+INFO:root:Successfully retrieved data for ADM
+ERROR:yfinance:BFB: No data found, symbol may be delisted
+WARNING:root:No data available for BFb
+ERROR:root:Failed to retrieve data for BFb after 3 attempts
+INFO:root:Successfully retrieved data for IBM
+INFO:root:Successfully retrieved data for UNP
+INFO:root:Successfully retrieved data for CHN
+ERROR:yfinance:SNE: No data found, symbol may be delisted
+WARNING:root:No data available for SNE
+ERROR:root:Failed to retrieve data for SNE after 3 attempts
+INFO:root:Successfully retrieved data for R
+INFO:root:Successfully retrieved data for SLM
+INFO:root:Successfully retrieved data for MU
+INFO:root:Successfully retrieved data for AVY
+ERROR:yfinance:WFTIQ: No data found, symbol may be delisted
+WARNING:root:No data available for WFTIQ
+ERROR:root:Failed to retrieve data for WFTIQ after 3 attempts
+INFO:root:Successfully retrieved data for MRO
+INFO:root:Successfully retrieved data for CF
+INFO:root:Successfully retrieved data for APA
+INFO:root:Successfully retrieved data for DUK
+INFO:root:Successfully retrieved data for KEY
+INFO:root:Successfully retrieved data for TDC
+INFO:root:Successfully retrieved data for SNV
+INFO:root:Successfully retrieved data for WPM
+INFO:root:Successfully retrieved data for LH
+INFO:root:Successfully retrieved data for BXP
+INFO:root:Successfully retrieved data for WDC
+INFO:root:Successfully retrieved data for PPG
+INFO:root:Successfully retrieved data for SPGI
+INFO:root:Successfully retrieved data for ANF
+INFO:root:Successfully retrieved data for WMB
+ERROR:yfinance:ANTM: No data found, symbol may be delisted
+WARNING:root:No data available for ANTM
+ERROR:root:Failed to retrieve data for ANTM after 3 attempts
+INFO:root:Successfully retrieved data for BC
+ERROR:yfinance:JEC: No data found, symbol may be delisted
+WARNING:root:No data available for JEC
+ERROR:root:Failed to retrieve data for JEC after 3 attempts
+INFO:root:Successfully retrieved data for EMN
+INFO:root:Successfully retrieved data for VZ
+INFO:root:Successfully retrieved data for NUE
+INFO:root:Successfully retrieved data for OMC
+INFO:root:Successfully retrieved data for NYT
+INFO:root:Successfully retrieved data for LNC
+INFO:root:Successfully retrieved data for UBS
+INFO:root:Successfully retrieved data for NOV
+INFO:root:Successfully retrieved data for AVB
+INFO:root:Successfully retrieved data for MAR
+INFO:root:Successfully retrieved data for IR
+INFO:root:Successfully retrieved data for BMY
+INFO:root:Successfully retrieved data for GNW
+INFO:root:Successfully retrieved data for AEP
+INFO:root:Successfully retrieved data for TMO
+INFO:root:Successfully retrieved data for KSS
+INFO:root:Successfully retrieved data for NEM
+ERROR:yfinance:VAR: No data found, symbol may be delisted
+WARNING:root:No data available for VAR
+ERROR:root:Failed to retrieve data for VAR after 3 attempts
+INFO:root:Successfully retrieved data for GHC
+ERROR:yfinance:TTM: No data found, symbol may be delisted
+WARNING:root:No data available for TTM
+ERROR:root:Failed to retrieve data for TTM after 3 attempts
+INFO:root:Successfully retrieved data for PSA
+INFO:root:Successfully retrieved data for TRV
+INFO:root:Successfully retrieved data for SWK
+INFO:root:Successfully retrieved data for MBI
+INFO:root:Successfully retrieved data for HDB
+INFO:root:Successfully retrieved data for NTTYY
+INFO:root:Successfully retrieved data for BEN
+INFO:root:Successfully retrieved data for HUM
+INFO:root:Successfully retrieved data for HRB
+ERROR:yfinance:VIAB: No data found, symbol may be delisted
+WARNING:root:No data available for VIAB
+ERROR:root:Failed to retrieve data for VIAB after 3 attempts
+INFO:root:Successfully retrieved data for UNM
+INFO:root:Successfully retrieved data for CB
+INFO:root:Successfully retrieved data for JEF
+INFO:root:Successfully retrieved data for JNJ
+INFO:root:Successfully retrieved data for TSN
+INFO:root:Successfully retrieved data for TGT
+INFO:root:Successfully retrieved data for JBL
+INFO:root:Successfully retrieved data for AXP
+INFO:root:Successfully retrieved data for AMX
+INFO:root:Successfully retrieved data for MAS
+INFO:root:Successfully retrieved data for X
+INFO:root:Successfully retrieved data for SYK
+INFO:root:Successfully retrieved data for MUFG
+INFO:root:Successfully retrieved data for DFS
+INFO:root:Successfully retrieved data for PRU
+INFO:root:Successfully retrieved data for ABT
+INFO:root:Successfully retrieved data for GE
+INFO:root:Successfully retrieved data for OIBRQ
+ERROR:yfinance:MDP: No data found, symbol may be delisted
+WARNING:root:No data available for MDP
+ERROR:root:Failed to retrieve data for MDP after 3 attempts
+INFO:root:Successfully retrieved data for DGX
+INFO:root:Successfully retrieved data for UPS
+ERROR:yfinance:AUY: No data found, symbol may be delisted
+WARNING:root:No data available for AUY
+ERROR:root:Failed to retrieve data for AUY after 3 attempts
+INFO:root:Successfully retrieved data for CVS
+INFO:root:Successfully retrieved data for ITT
+INFO:root:Successfully retrieved data for PPL
+ERROR:yfinance:DF: No data found, symbol may be delisted
+WARNING:root:No data available for DF
+ERROR:root:Failed to retrieve data for DF after 3 attempts
+INFO:root:Successfully retrieved data for RHI
+INFO:root:Successfully retrieved data for SPG
+INFO:root:Successfully retrieved data for IBN
+INFO:root:Successfully retrieved data for BIG
+ERROR:yfinance:AVP: No data found, symbol may be delisted
+WARNING:root:No data available for AVP
+ERROR:root:Failed to retrieve data for AVP after 3 attempts
+INFO:root:Successfully retrieved data for JCI
+INFO:root:Successfully retrieved data for CMI
+INFO:root:Successfully retrieved data for ALL
+INFO:root:Successfully retrieved data for SRE
+INFO:root:Successfully retrieved data for DVN
+INFO:root:Successfully retrieved data for CAG
+INFO:root:Successfully retrieved data for TJX
+INFO:root:Successfully retrieved data for WHR
+INFO:root:Successfully retrieved data for RRC
+INFO:root:Successfully retrieved data for FE
+INFO:root:Successfully retrieved data for HOV
+INFO:root:Successfully retrieved data for GL
+ERROR:yfinance:UTX: No data found, symbol may be delisted
+WARNING:root:No data available for UTX
+ERROR:root:Failed to retrieve data for UTX after 3 attempts
+INFO:root:Successfully retrieved data for PHM
+ERROR:yfinance:WYND: No data found, symbol may be delisted
+WARNING:root:No data available for WYND
+ERROR:root:Failed to retrieve data for WYND after 3 attempts
+INFO:root:Successfully retrieved data for VLO
+INFO:root:Successfully retrieved data for IGT
+ERROR:yfinance:NBL: No data found, symbol may be delisted
+WARNING:root:No data available for NBL
+ERROR:root:Failed to retrieve data for NBL after 3 attempts
+INFO:root:Successfully retrieved data for BSX
+ERROR:yfinance:FTR: No data found, symbol may be delisted
+WARNING:root:No data available for FTR
+ERROR:root:Failed to retrieve data for FTR after 3 attempts
+INFO:root:Successfully retrieved data for COF
+INFO:root:Successfully retrieved data for PCG
+INFO:root:Successfully retrieved data for NSC
+INFO:root:Successfully retrieved data for AFL
+INFO:root:Successfully retrieved data for CHK
+INFO:root:Successfully retrieved data for HOG
+INFO:root:Successfully retrieved data for EQR
+INFO:root:Successfully retrieved data for PBI
+INFO:root:Successfully retrieved data for APD
+INFO:root:Successfully retrieved data for FHN
+INFO:root:Successfully retrieved data for PFG
+INFO:root:Successfully retrieved data for TXN
+INFO:root:Successfully retrieved data for ASR
+INFO:root:Successfully retrieved data for HPQ
+INFO:root:Successfully retrieved data for CCEP
+INFO:root:Successfully retrieved data for HON
+INFO:root:Successfully retrieved data for NMR
+INFO:root:Successfully retrieved data for AMD
+INFO:root:Successfully retrieved data for MTB
+ERROR:yfinance:NCR: No data found, symbol may be delisted
+WARNING:root:No data available for NCR
+ERROR:root:Failed to retrieve data for NCR after 3 attempts
+INFO:root:Successfully retrieved data for MOS
+ERROR:yfinance:PKI: No data found, symbol may be delisted
+WARNING:root:No data available for PKI
+ERROR:root:Failed to retrieve data for PKI after 3 attempts
+INFO:root:Successfully retrieved data for LVS
+INFO:root:Successfully retrieved data for FCX
+INFO:root:Successfully retrieved data for AZO
+INFO:root:Successfully retrieved data for NBR
+INFO:root:Successfully retrieved data for SYY
+INFO:root:Successfully retrieved data for THC
+INFO:root:Successfully retrieved data for AEE
+ERROR:yfinance:IBA: No data found, symbol may be delisted
+WARNING:root:No data available for IBA
+ERROR:root:Failed to retrieve data for IBA after 3 attempts
+INFO:root:Successfully retrieved data for ETN
+INFO:root:Successfully retrieved data for SRL
+INFO:root:Successfully retrieved data for KOF
+INFO:root:Successfully retrieved data for CRM
+INFO:root:Successfully retrieved data for EPAC
+INFO:root:Successfully retrieved data for ED
+INFO:root:Successfully retrieved data for AES
+INFO:root:Successfully retrieved data for RIG
+INFO:root:Successfully retrieved data for AIV
+INFO:root:Successfully retrieved data for TXT
+INFO:root:Successfully retrieved data for GPAGF
+INFO:root:Successfully retrieved data for UIS
+ERROR:yfinance:FII: No data found, symbol may be delisted
+WARNING:root:No data available for FII
+ERROR:root:Failed to retrieve data for FII after 3 attempts
+INFO:root:Successfully retrieved data for VIA
+INFO:root:Successfully retrieved data for USB
+INFO:root:Successfully retrieved data for CMA
+INFO:root:Successfully retrieved data for VAL
+ERROR:yfinance:TIF: No data found, symbol may be delisted
+WARNING:root:No data available for TIF
+ERROR:root:Failed to retrieve data for TIF after 3 attempts
+INFO:root:Successfully retrieved data for V
+INFO:root:Successfully retrieved data for MTG
+INFO:root:Successfully retrieved data for BKR
+INFO:root:Successfully retrieved data for TM
+INFO:root:Successfully retrieved data for WU
+ERROR:yfinance:CAJ: No data found, symbol may be delisted
+WARNING:root:No data available for CAJ
+ERROR:root:Failed to retrieve data for CAJ after 3 attempts
+INFO:root:Successfully retrieved data for HES
+INFO:root:Successfully retrieved data for YUM
+INFO:root:Successfully retrieved data for MMC
+INFO:root:Successfully retrieved data for KYOCY
+INFO:root:Successfully retrieved data for K
+INFO:root:Successfully retrieved data for KIM
+INFO:root:Successfully retrieved data for ECL
+INFO:root:Successfully retrieved data for JWN
+INFO:root:Successfully retrieved data for EOG
+INFO:root:Successfully retrieved data for NWL
+INFO:root:Successfully retrieved data for AON
+INFO:root:Successfully retrieved data for HAS
+INFO:root:Successfully retrieved data for BK
+INFO:root:Successfully retrieved data for WIT
+INFO:root:Successfully retrieved data for SLB
+INFO:root:Successfully retrieved data for WBA
+INFO:root:Successfully retrieved data for ROK
+INFO:root:Successfully retrieved data for PEP
+INFO:root:Successfully retrieved data for UNH
+INFO:root:Successfully retrieved data for TER
+INFO:root:Successfully retrieved data for MUR
+INFO:root:Successfully retrieved data for MFG
+INFO:root:Successfully retrieved data for DDS
+INFO:root:Successfully retrieved data for DHR
+ERROR:yfinance:FLIR: No data found, symbol may be delisted
+WARNING:root:No data available for FLIR
+ERROR:root:Failed to retrieve data for FLIR after 3 attempts
+INFO:root:Successfully retrieved data for SPWR
+INFO:root:Successfully retrieved data for STX
+INFO:root:Successfully retrieved data for A
+INFO:root:Successfully retrieved data for CX
+INFO:root:Successfully retrieved data for DAL
+INFO:root:Successfully retrieved data for M
+INFO:root:Successfully retrieved data for MCO
+INFO:root:Successfully retrieved data for NKE
+INFO:root:Successfully retrieved data for RDY
+INFO:root:Successfully retrieved data for LNN
+INFO:root:Successfully retrieved data for PG
+INFO:root:Successfully retrieved data for WY
+ERROR:yfinance:ICAYY: No data found, symbol may be delisted
+WARNING:root:No data available for ICAYY
+ERROR:root:Failed to retrieve data for ICAYY after 3 attempts
+INFO:root:Successfully retrieved data for ADP
+ERROR:yfinance:$LARRF: possibly delisted; No price data found  (period=1y)
+WARNING:root:No data available for LARRF
+ERROR:root:Failed to retrieve data for LARRF after 3 attempts
+ERROR:yfinance:DNR: No data found, symbol may be delisted
+WARNING:root:No data available for DNR
+ERROR:root:Failed to retrieve data for DNR after 3 attempts
+INFO:root:Successfully retrieved data for MDRX
+INFO:root:Successfully retrieved data for RS
+INFO:root:Successfully retrieved data for SSRM
+INFO:root:Successfully retrieved data for SWN
+INFO:root:Successfully retrieved data for CRI
+INFO:root:Successfully retrieved data for KDP
+INFO:root:Successfully retrieved data for LOW
+ERROR:yfinance:AMPLQ: No data found, symbol may be delisted
+WARNING:root:No data available for AMPLQ
+ERROR:root:Failed to retrieve data for AMPLQ after 3 attempts
+INFO:root:Successfully retrieved data for MIDD
+INFO:root:Successfully retrieved data for VALE
+ERROR:yfinance:CPL: No data found, symbol may be delisted
+WARNING:root:No data available for CPL
+ERROR:root:Failed to retrieve data for CPL after 3 attempts
+INFO:root:Successfully retrieved data for UAL
+INFO:root:Successfully retrieved data for NFLX
+INFO:root:Successfully retrieved data for NWS
+INFO:root:Successfully retrieved data for TUP
+INFO:root:Successfully retrieved data for EQIX
+ERROR:yfinance:CERN: No data found, symbol may be delisted
+WARNING:root:No data available for CERN
+ERROR:root:Failed to retrieve data for CERN after 3 attempts
+INFO:root:Successfully retrieved data for CGA
+INFO:root:Successfully retrieved data for BKNG
+INFO:root:Successfully retrieved data for ORLY
+ERROR:yfinance:SGEN: No data found, symbol may be delisted
+WARNING:root:No data available for SGEN
+ERROR:root:Failed to retrieve data for SGEN after 3 attempts
+INFO:root:Successfully retrieved data for BLK
+ERROR:yfinance:CCMP: No data found, symbol may be delisted
+WARNING:root:No data available for CCMP
+ERROR:root:Failed to retrieve data for CCMP after 3 attempts
+INFO:root:Successfully retrieved data for CME
+INFO:root:Successfully retrieved data for ILMN
+INFO:root:Successfully retrieved data for JBHT
+INFO:root:Successfully retrieved data for L
+ERROR:yfinance:MXIM: No data found, symbol may be delisted
+WARNING:root:No data available for MXIM
+ERROR:root:Failed to retrieve data for MXIM after 3 attempts
+INFO:root:Successfully retrieved data for RCI
+INFO:root:Successfully retrieved data for URBN
+INFO:root:Successfully retrieved data for SSP
+INFO:root:Successfully retrieved data for OSK
+INFO:root:Successfully retrieved data for NEE
+INFO:root:Successfully retrieved data for CEF
+INFO:root:Successfully retrieved data for FSLR
+ERROR:yfinance:MYL: No data found, symbol may be delisted
+WARNING:root:No data available for MYL
+ERROR:root:Failed to retrieve data for MYL after 3 attempts
+INFO:root:Successfully retrieved data for MKTAY
+INFO:root:Successfully retrieved data for MITSY
+INFO:root:Successfully retrieved data for WPFH
+INFO:root:Successfully retrieved data for POYYF
+INFO:root:Successfully retrieved data for FFIV
+INFO:root:Successfully retrieved data for EW
+INFO:root:Successfully retrieved data for NWSA
+ERROR:yfinance:ALXN: No data found, symbol may be delisted
+WARNING:root:No data available for ALXN
+ERROR:root:Failed to retrieve data for ALXN after 3 attempts
+INFO:root:Successfully retrieved data for APH
+ERROR:yfinance:BRKB: No data found, symbol may be delisted
+WARNING:root:No data available for BRKb
+ERROR:root:Failed to retrieve data for BRKb after 3 attempts
+ERROR:yfinance:COG: No data found, symbol may be delisted
+WARNING:root:No data available for COG
+ERROR:root:Failed to retrieve data for COG after 3 attempts
+INFO:root:Successfully retrieved data for KMX
+INFO:root:Successfully retrieved data for CMG
+INFO:root:Successfully retrieved data for DVA
+INFO:root:Successfully retrieved data for ATGE
+INFO:root:Successfully retrieved data for EQT
+INFO:root:Successfully retrieved data for FMC
+INFO:root:Successfully retrieved data for FTI
+INFO:root:Successfully retrieved data for FLS
+INFO:root:Successfully retrieved data for GME
+INFO:root:Successfully retrieved data for LHX
+ERROR:yfinance:PEAK: No data found, symbol may be delisted
+WARNING:root:No data available for PEAK
+ERROR:root:Failed to retrieve data for PEAK after 3 attempts
+INFO:root:Successfully retrieved data for WELL
+INFO:root:Successfully retrieved data for HP
+INFO:root:Successfully retrieved data for HRL
+INFO:root:Successfully retrieved data for IVZ
+INFO:root:Successfully retrieved data for IRM
+INFO:root:Successfully retrieved data for ES
+INFO:root:Successfully retrieved data for NRG
+INFO:root:Successfully retrieved data for OKE
+INFO:root:Successfully retrieved data for OI
+ERROR:yfinance:PXD: No data found, symbol may be delisted
+WARNING:root:No data available for PXD
+ERROR:root:Failed to retrieve data for PXD after 3 attempts
+ERROR:yfinance:QEP: No data found, symbol may be delisted
+WARNING:root:No data available for QEP
+ERROR:root:Failed to retrieve data for QEP after 3 attempts
+INFO:root:Successfully retrieved data for RSG
+INFO:root:Successfully retrieved data for ROP
+INFO:root:Successfully retrieved data for VTR
+INFO:root:Successfully retrieved data for WEC
+ERROR:yfinance:RRD: No data found, symbol may be delisted
+WARNING:root:No data available for RRD
+ERROR:root:Failed to retrieve data for RRD after 3 attempts
+INFO:root:Successfully retrieved data for GOLD
+INFO:root:Successfully retrieved data for AEM
+INFO:root:Successfully retrieved data for ALV
+INFO:root:Successfully retrieved data for BX
+INFO:root:Successfully retrieved data for CIM
+INFO:root:Successfully retrieved data for CNS
+ERROR:yfinance:CRR: No data found, symbol may be delisted
+WARNING:root:No data available for CRR
+ERROR:root:Failed to retrieve data for CRR after 3 attempts
+INFO:root:Successfully retrieved data for DDD
+INFO:root:Successfully retrieved data for LAZ
+INFO:root:Successfully retrieved data for MGA
+INFO:root:Successfully retrieved data for MPC
+ERROR:yfinance:NS: No data found, symbol may be delisted
+WARNING:root:No data available for NS
+ERROR:root:Failed to retrieve data for NS after 3 attempts
+INFO:root:Successfully retrieved data for OSG
+INFO:root:Successfully retrieved data for RES
+INFO:root:Successfully retrieved data for SCCO
+INFO:root:Successfully retrieved data for SD
+INFO:root:Successfully retrieved data for TWI
+INFO:root:Successfully retrieved data for UAA
+INFO:root:Successfully retrieved data for BHC
+ERROR:yfinance:WTR: No data found, symbol may be delisted
+WARNING:root:No data available for WTR
+ERROR:root:Failed to retrieve data for WTR after 3 attempts
+INFO:root:Successfully retrieved data for ADTN
+INFO:root:Successfully retrieved data for AEIS
+INFO:root:Successfully retrieved data for ANTE
+ERROR:yfinance:ARNA: No data found, symbol may be delisted
+WARNING:root:No data available for ARNA
+ERROR:root:Failed to retrieve data for ARNA after 3 attempts
+INFO:root:Successfully retrieved data for AVGO
+ERROR:yfinance:CLSN: No data found, symbol may be delisted
+WARNING:root:No data available for CLSN
+ERROR:root:Failed to retrieve data for CLSN after 3 attempts
+ERROR:yfinance:CREE: No data found, symbol may be delisted
+WARNING:root:No data available for CREE
+ERROR:root:Failed to retrieve data for CREE after 3 attempts
+INFO:root:Successfully retrieved data for CRUS
+ERROR:yfinance:DNKN: No data found, symbol may be delisted
+WARNING:root:No data available for DNKN
+ERROR:root:Failed to retrieve data for DNKN after 3 attempts
+INFO:root:Successfully retrieved data for ENTG
+INFO:root:Successfully retrieved data for HAIN
+INFO:root:Successfully retrieved data for IIJIY
+INFO:root:Successfully retrieved data for IPGP
+INFO:root:Successfully retrieved data for IONS
+INFO:root:Successfully retrieved data for ITRI
+ERROR:yfinance:MANT: No data found, symbol may be delisted
+WARNING:root:No data available for MANT
+ERROR:root:Failed to retrieve data for MANT after 3 attempts
+INFO:root:Successfully retrieved data for MERR
+INFO:root:Successfully retrieved data for MPAA
+ERROR:yfinance:NUAN: No data found, symbol may be delisted
+WARNING:root:No data available for NUAN
+ERROR:root:Failed to retrieve data for NUAN after 3 attempts
+INFO:root:Successfully retrieved data for NXPI
+INFO:root:Successfully retrieved data for QUIK
+INFO:root:Successfully retrieved data for RDWR
+INFO:root:Successfully retrieved data for RGLD
+INFO:root:Successfully retrieved data for TSLA
+INFO:root:Successfully retrieved data for TTWO
+INFO:root:Successfully retrieved data for WACLY
+INFO:root:Successfully retrieved data for YNDX
+INFO:root:Successfully retrieved data for NZEOF
+ERROR:yfinance:MMM: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for MMM
+ERROR:root:Failed to retrieve data for MMM after 3 attempts
+ERROR:yfinance:AXP: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for AXP
+ERROR:root:Failed to retrieve data for AXP after 3 attempts
+ERROR:yfinance:AMGN: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for AMGN
+ERROR:root:Failed to retrieve data for AMGN after 3 attempts
+ERROR:yfinance:AMZN: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for AMZN
+ERROR:root:Failed to retrieve data for AMZN after 3 attempts
+ERROR:yfinance:AAPL: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for AAPL
+ERROR:root:Failed to retrieve data for AAPL after 3 attempts
+ERROR:yfinance:BA: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for BA
+ERROR:root:Failed to retrieve data for BA after 3 attempts
+ERROR:yfinance:CAT: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for CAT
+ERROR:root:Failed to retrieve data for CAT after 3 attempts
+ERROR:yfinance:CVX: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for CVX
+ERROR:root:Failed to retrieve data for CVX after 3 attempts
+ERROR:yfinance:CSCO: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for CSCO
+ERROR:root:Failed to retrieve data for CSCO after 3 attempts
+ERROR:yfinance:KO: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for KO
+ERROR:root:Failed to retrieve data for KO after 3 attempts
+ERROR:yfinance:DIS: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for DIS
+ERROR:root:Failed to retrieve data for DIS after 3 attempts
+ERROR:yfinance:DOW: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for DOW
+ERROR:root:Failed to retrieve data for DOW after 3 attempts
+ERROR:yfinance:GS: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for GS
+ERROR:root:Failed to retrieve data for GS after 3 attempts
+ERROR:yfinance:HD: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for HD
+ERROR:root:Failed to retrieve data for HD after 3 attempts
+ERROR:yfinance:HON: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for HON
+ERROR:root:Failed to retrieve data for HON after 3 attempts
+ERROR:yfinance:IBM: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for IBM
+ERROR:root:Failed to retrieve data for IBM after 3 attempts
+ERROR:yfinance:INTC: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for INTC
+ERROR:root:Failed to retrieve data for INTC after 3 attempts
+ERROR:yfinance:JNJ: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for JNJ
+ERROR:root:Failed to retrieve data for JNJ after 3 attempts
+ERROR:yfinance:JPM: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for JPM
+ERROR:root:Failed to retrieve data for JPM after 3 attempts
+ERROR:yfinance:MCD: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for MCD
+ERROR:root:Failed to retrieve data for MCD after 3 attempts
+ERROR:yfinance:MRK: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for MRK
+ERROR:root:Failed to retrieve data for MRK after 3 attempts
+ERROR:yfinance:MSFT: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for MSFT
+ERROR:root:Failed to retrieve data for MSFT after 3 attempts
+ERROR:yfinance:NKE: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for NKE
+ERROR:root:Failed to retrieve data for NKE after 3 attempts
+ERROR:yfinance:PG: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for PG
+ERROR:root:Failed to retrieve data for PG after 3 attempts
+ERROR:yfinance:CRM: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for CRM
+ERROR:root:Failed to retrieve data for CRM after 3 attempts
+ERROR:yfinance:TRV: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for TRV
+ERROR:root:Failed to retrieve data for TRV after 3 attempts
+ERROR:yfinance:UNH: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for UNH
+ERROR:root:Failed to retrieve data for UNH after 3 attempts
+ERROR:yfinance:VZ: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for VZ
+ERROR:root:Failed to retrieve data for VZ after 3 attempts
+ERROR:yfinance:V: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for V
+ERROR:root:Failed to retrieve data for V after 3 attempts
+ERROR:yfinance:WMT: Period '24y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+WARNING:root:No data available for WMT
+ERROR:root:Failed to retrieve data for WMT after 3 attempts
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WMT']: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))

@@ -1,0 +1,1110 @@
+  INTC: 12 stocks
+
+  PG: 18 stocks
+
+  MMM: 16 stocks
+
+  IBM: 14 stocks
+
+  CVX: 21 stocks
+
+  VZ: 9 stocks
+
+  CVX: 6 stocks
+
+  CSCO: 24 stocks
+
+  MMM: 8 stocks
+
+  WMT: 22 stocks
+
+  CAT: 18 stocks
+
+  JNJ: 12 stocks
+
+  CVX: 15 stocks
+
+  JNJ: 5 stocks
+
+  WMT: 10 stocks
+
+  BA: 17 stocks
+
+  TRV: 6 stocks
+
+  VZ: 7 stocks
+
+  DIS: 19 stocks
+
+  VZ: 10 stocks
+
+  WMT: 1 stocks
+
+  AMGN: 7 stocks
+
+  BA: 21 stocks
+
+  VZ: 2 stocks
+
+  AMZN: 5 stocks
+
+  JPM: 14 stocks
+
+  VZ: 11 stocks
+
+  CVX: 7 stocks
+
+  GS: 6 stocks
+
+  INTC: 9 stocks
+
+  PG: 8 stocks
+
+  PG: 30 stocks
+
+  MMM: 16 stocks
+
+  BA: 14 stocks
+
+  V: 30 stocks
+
+  BA: 16 stocks
+
+  MSFT: 14 stocks
+
+  DIS: 1 stocks
+
+  JNJ: 9 stocks
+
+  NKE: 9 stocks
+
+  PG: 11 stocks
+
+  CRM: 22 stocks
+
+  UNH: 8 stocks
+
+  JPM: 3 stocks
+
+  WMT: 27 stocks
+
+  MSFT: 20 stocks
+
+  WMT: 10 stocks
+
+  CAT: 30 stocks
+
+  JPM: 6 stocks
+
+  NKE: 24 stocks
+
+  DIS: 13 stocks
+
+  DOW: 15 stocks
+
+  JNJ: 2 stocks
+
+  CSCO: 18 stocks
+
+  MSFT: 12 stocks
+
+  HD: 9 stocks
+
+  V: 7 stocks
+
+  WMT: 14 stocks
+
+  CVX: 27 stocks
+
+  CSCO: 3 stocks
+
+  AMGN: 25 stocks
+
+  AMZN: 3 stocks
+
+  DOW: 2 stocks
+
+  INTC: 2 stocks
+
+  NKE: 28 stocks
+
+  JPM: 19 stocks
+
+  TRV: 11 stocks
+
+  HD: 30 stocks
+
+  CVX: 13 stocks
+
+  MSFT: 17 stocks
+
+  MMM: 30 stocks
+
+  CAT: 6 stocks
+
+  HON: 1 stocks
+
+  MSFT: 23 stocks
+
+  BA: 5 stocks
+
+  DOW: 25 stocks
+
+  PG: 15 stocks
+
+  VZ: 14 stocks
+
+  WMT: 1 stocks
+
+  CSCO: 3 stocks
+
+  DOW: 19 stocks
+
+  UNH: 8 stocks
+
+  CAT: 27 stocks
+
+  NKE: 3 stocks
+
+  CSCO: 16 stocks
+
+  TRV: 14 stocks
+
+  GS: 30 stocks
+
+  CAT: 14 stocks
+
+  IBM: 16 stocks
+
+  PG: 26 stocks
+
+  UNH: 4 stocks
+
+  AXP: 12 stocks
+
+  CVX: 12 stocks
+
+  KO: 1 stocks
+
+  DIS: 4 stocks
+
+  NKE: 1 stocks
+
+  V: 30 stocks
+
+  NKE: 2 stocks
+
+  CRM: 28 stocks
+
+  HD: 13 stocks
+
+  MRK: 17 stocks
+
+  GS: 8 stocks
+
+  MCD: 13 stocks
+
+  VZ: 9 stocks
+
+  HON: 3 stocks
+
+  NKE: 3 stocks
+
+  VZ: 24 stocks
+
+  NKE: 30 stocks
+
+  CSCO: 5 stocks
+
+  IBM: 10 stocks
+
+  PG: 11 stocks
+
+  VZ: 4 stocks
+
+  DOW: 25 stocks
+
+  IBM: 5 stocks
+
+  AMGN: 16 stocks
+
+  BA: 1 stocks
+
+  INTC: 13 stocks
+
+  IBM: 7 stocks
+
+  MRK: 23 stocks
+
+  CVX: 27 stocks
+
+  CSCO: 3 stocks
+
+  CRM: 30 stocks
+
+  CVX: 11 stocks
+
+  HD: 19 stocks
+
+  MMM: 3 stocks
+
+  JNJ: 27 stocks
+
+  INTC: 11 stocks
+
+  VZ: 19 stocks
+
+  CVX: 21 stocks
+
+  DIS: 4 stocks
+
+  JPM: 1 stocks
+
+  VZ: 4 stocks
+
+  IBM: 24 stocks
+
+  MCD: 6 stocks
+
+  DIS: 3 stocks
+
+  HON: 20 stocks
+
+  UNH: 7 stocks
+
+  DIS: 4 stocks
+
+  IBM: 26 stocks
+
+  BA: 3 stocks
+
+  KO: 20 stocks
+
+  V: 7 stocks
+
+  AMZN: 2 stocks
+
+  CAT: 10 stocks
+
+  MRK: 15 stocks
+
+  NKE: 3 stocks
+
+  MMM: 19 stocks
+
+  CAT: 11 stocks
+
+  HON: 6 stocks
+
+  IBM: 24 stocks
+
+  AXP: 1 stocks
+
+  AAPL: 16 stocks
+
+  HON: 13 stocks
+
+  AMZN: 13 stocks
+
+  KO: 5 stocks
+
+  MCD: 4 stocks
+
+  TRV: 8 stocks
+
+  MRK: 2 stocks
+
+  WMT: 28 stocks
+
+  AMZN: 6 stocks
+
+  BA: 24 stocks
+
+  AXP: 1 stocks
+
+  DOW: 11 stocks
+
+  HD: 12 stocks
+
+  MRK: 2 stocks
+
+  NKE: 4 stocks
+
+  MSFT: 18 stocks
+
+  PG: 12 stocks
+
+  AXP: 20 stocks
+
+  MRK: 10 stocks
+
+  HD: 27 stocks
+
+  HON: 3 stocks
+
+  AMZN: 14 stocks
+
+  CVX: 8 stocks
+
+  VZ: 8 stocks
+
+  AXP: 4 stocks
+
+  INTC: 25 stocks
+
+  MRK: 1 stocks
+
+  AMZN: 20 stocks
+
+  HON: 4 stocks
+
+  MCD: 6 stocks
+
+  AXP: 12 stocks
+
+  MRK: 18 stocks
+
+  NKE: 4 stocks
+
+  TRV: 17 stocks
+
+  V: 9 stocks
+
+  BA: 1 stocks
+
+  GS: 16 stocks
+
+  HON: 8 stocks
+
+  VZ: 5 stocks
+
+  KO: 23 stocks
+
+  INTC: 7 stocks
+
+  MMM: 16 stocks
+
+  IBM: 1 stocks
+
+  INTC: 1 stocks
+
+  UNH: 12 stocks
+
+  AXP: 12 stocks
+
+  AMGN: 12 stocks
+
+  CVX: 6 stocks
+
+  AMZN: 6 stocks
+
+  CSCO: 20 stocks
+
+  DIS: 4 stocks
+
+  BA: 5 stocks
+
+  CRM: 2 stocks
+
+  UNH: 23 stocks
+
+  MMM: 8 stocks
+
+  BA: 20 stocks
+
+  DOW: 2 stocks
+
+  KO: 18 stocks
+
+  GS: 12 stocks
+
+  GS: 28 stocks
+
+  HD: 2 stocks
+
+  MMM: 24 stocks
+
+  CAT: 6 stocks
+
+  MMM: 23 stocks
+
+  AMZN: 7 stocks
+
+  CAT: 18 stocks
+
+  CSCO: 12 stocks
+
+  AAPL: 24 stocks
+
+  INTC: 2 stocks
+
+  CRM: 4 stocks
+
+  AMGN: 4 stocks
+
+  HD: 26 stocks
+
+  MMM: 3 stocks
+
+  VZ: 27 stocks
+
+  MMM: 24 stocks
+
+  DOW: 6 stocks
+
+  JPM: 3 stocks
+
+  MSFT: 27 stocks
+
+  CSCO: 30 stocks
+
+  CAT: 25 stocks
+
+  INTC: 5 stocks
+
+  DIS: 13 stocks
+
+  DOW: 17 stocks
+
+  AXP: 24 stocks
+
+  HD: 4 stocks
+
+  PG: 2 stocks
+
+  AMGN: 9 stocks
+
+  CSCO: 3 stocks
+
+  NKE: 3 stocks
+
+  CRM: 15 stocks
+
+  DOW: 16 stocks
+
+  NKE: 14 stocks
+
+  DOW: 3 stocks
+
+  V: 27 stocks
+
+  AMZN: 24 stocks
+
+  IBM: 6 stocks
+
+  HD: 25 stocks
+
+  MCD: 5 stocks
+
+  AAPL: 17 stocks
+
+  V: 13 stocks
+
+  AMGN: 4 stocks
+
+  KO: 6 stocks
+
+  INTC: 20 stocks
+
+  INTC: 30 stocks
+
+  HON: 11 stocks
+
+  UNH: 19 stocks
+
+  MMM: 23 stocks
+
+  AXP: 7 stocks
+
+  GS: 22 stocks
+
+  MSFT: 8 stocks
+
+  AXP: 16 stocks
+
+  AMZN: 10 stocks
+
+  PG: 4 stocks
+
+  AMGN: 8 stocks
+
+  MRK: 17 stocks
+
+  VZ: 5 stocks
+
+  MCD: 8 stocks
+
+  MRK: 13 stocks
+
+  UNH: 9 stocks
+
+  WMT: 30 stocks
+
+  HD: 28 stocks
+
+  PG: 1 stocks
+
+  V: 1 stocks
+
+  AMGN: 3 stocks
+
+  DIS: 27 stocks
+
+  AAPL: 27 stocks
+
+  GS: 3 stocks
+
+  MMM: 29 stocks
+
+  BA: 1 stocks
+
+  MMM: 5 stocks
+
+  DIS: 19 stocks
+
+  PG: 6 stocks
+
+  INTC: 14 stocks
+
+  PG: 14 stocks
+
+  WMT: 2 stocks
+
+  JNJ: 26 stocks
+
+  CRM: 3 stocks
+
+  UNH: 1 stocks
+
+  BA: 21 stocks
+
+  V: 9 stocks
+
+  BA: 9 stocks
+
+  CAT: 18 stocks
+
+  VZ: 3 stocks
+
+  MCD: 28 stocks
+
+  MSFT: 2 stocks
+
+  AMGN: 22 stocks
+
+  AMZN: 8 stocks
+
+  CVX: 30 stocks
+
+  AAPL: 19 stocks
+
+  HD: 11 stocks
+
+  IBM: 23 stocks
+
+  JPM: 4 stocks
+
+  MCD: 3 stocks
+
+  HON: 16 stocks
+
+  WMT: 14 stocks
+
+  HON: 3 stocks
+
+  MRK: 27 stocks
+
+  AMGN: 17 stocks
+
+  AMZN: 13 stocks
+
+  HD: 14 stocks
+
+  MRK: 16 stocks
+
+  AMZN: 8 stocks
+
+  HD: 15 stocks
+
+  WMT: 7 stocks
+
+  DOW: 5 stocks
+
+  HON: 17 stocks
+
+  WMT: 8 stocks
+
+  CVX: 1 stocks
+
+  DOW: 14 stocks
+
+  VZ: 15 stocks
+
+  CAT: 5 stocks
+
+  CVX: 25 stocks
+
+  AAPL: 1 stocks
+
+  MCD: 29 stocks
+
+  AXP: 21 stocks
+
+  CAT: 3 stocks
+
+  CRM: 6 stocks
+
+  HON: 21 stocks
+
+  TRV: 9 stocks
+
+  AMZN: 7 stocks
+
+  HD: 23 stocks
+
+  HON: 7 stocks
+
+  MRK: 23 stocks
+
+  AXP: 17 stocks
+
+  INTC: 3 stocks
+
+  TRV: 10 stocks
+
+  IBM: 21 stocks
+
+  MCD: 9 stocks
+
+  DIS: 19 stocks
+
+  CRM: 3 stocks
+
+  VZ: 8 stocks
+
+  AMZN: 13 stocks
+
+  HD: 9 stocks
+
+  TRV: 8 stocks
+
+  DOW: 15 stocks
+
+  JPM: 12 stocks
+
+  MSFT: 3 stocks
+
+  BA: 13 stocks
+
+  IBM: 14 stocks
+
+  CRM: 3 stocks
+
+  AMGN: 11 stocks
+
+  UNH: 16 stocks
+
+  WMT: 3 stocks
+
+  AXP: 17 stocks
+
+  MCD: 13 stocks
+
+  DOW: 4 stocks
+
+  MCD: 25 stocks
+
+  UNH: 1 stocks
+
+  INTC: 15 stocks
+
+  WMT: 15 stocks
+
+  GS: 14 stocks
+
+  WMT: 16 stocks
+
+  CAT: 21 stocks
+
+  CSCO: 9 stocks
+
+  MMM: 3 stocks
+
+  HD: 14 stocks
+
+  NKE: 13 stocks
+
+  DOW: 18 stocks
+
+  MSFT: 12 stocks
+
+  BA: 15 stocks
+
+  JPM: 9 stocks
+
+  V: 6 stocks
+
+  CSCO: 7 stocks
+
+  DOW: 22 stocks
+
+  JPM: 1 stocks
+
+  AAPL: 29 stocks
+
+  UNH: 1 stocks
+
+  NKE: 11 stocks
+
+  V: 19 stocks
+
+  KO: 30 stocks
+
+  AAPL: 3 stocks
+
+  MRK: 27 stocks
+
+  JNJ: 2 stocks
+
+  MSFT: 16 stocks
+
+  CRM: 12 stocks
+
+  AMGN: 1 stocks
+
+  CVX: 29 stocks
+
+  HON: 29 stocks
+
+  CRM: 1 stocks
+
+  AAPL: 29 stocks
+
+  CRM: 1 stocks
+
+  INTC: 13 stocks
+
+  NKE: 10 stocks
+
+  PG: 7 stocks
+
+  KO: 28 stocks
+
+  TRV: 2 stocks
+
+  AMZN: 2 stocks
+
+  CAT: 27 stocks
+
+  VZ: 1 stocks
+
+  AMZN: 8 stocks
+
+  GS: 11 stocks
+
+  MCD: 11 stocks
+
+  WMT: 30 stocks
+
+  MMM: 1 stocks
+
+  AMGN: 29 stocks
+
+  V: 30 stocks
+
+  AMGN: 30 stocks
+
+  AMZN: 18 stocks
+
+  DIS: 12 stocks
+
+  CAT: 4 stocks
+
+  MRK: 4 stocks
+
+  WMT: 22 stocks
+
+  CSCO: 18 stocks
+
+  MCD: 5 stocks
+
+  CRM: 7 stocks
+
+  AXP: 7 stocks
+
+  INTC: 6 stocks
+
+  JPM: 17 stocks
+
+  JPM: 18 stocks
+
+  V: 12 stocks
+
+  AXP: 6 stocks
+
+  AAPL: 10 stocks
+
+  HD: 13 stocks
+
+  MSFT: 1 stocks
+
+  WMT: 30 stocks
+
+  CVX: 30 stocks
+
+  AXP: 25 stocks
+
+  CAT: 5 stocks
+
+  MMM: 8 stocks
+
+  KO: 11 stocks
+
+  IBM: 11 stocks
+
+  DOW: 6 stocks
+
+  MCD: 23 stocks
+
+  CRM: 1 stocks
+
+  JPM: 11 stocks
+
+  CRM: 19 stocks
+
+  CAT: 27 stocks
+
+  CVX: 3 stocks
+
+  AMGN: 12 stocks
+
+  DIS: 16 stocks
+
+  JNJ: 2 stocks
+
+  BA: 21 stocks
+
+  VZ: 9 stocks
+
+  AXP: 10 stocks
+
+  CVX: 5 stocks
+
+  UNH: 15 stocks
+
+  KO: 16 stocks
+
+  HON: 12 stocks
+
+  V: 2 stocks
+
+  AXP: 2 stocks
+
+  CAT: 5 stocks
+
+  DOW: 23 stocks
+
+  DOW: 16 stocks
+
+  JPM: 14 stocks
+
+  CVX: 11 stocks
+
+  JNJ: 18 stocks
+
+  PG: 1 stocks
+
+  MRK: 7 stocks
+
+  V: 23 stocks
+
+  MMM: 14 stocks
+
+  MSFT: 1 stocks
+
+  NKE: 15 stocks
+
+  NKE: 30 stocks
+
+  AXP: 8 stocks
+
+  MRK: 1 stocks
+
+  MSFT: 21 stocks
+
+  V: 30 stocks
+
+  AAPL: 9 stocks
+
+  JNJ: 21 stocks
+
+  DIS: 26 stocks
+
+  DOW: 4 stocks
+
+  CVX: 8 stocks
+
+  IBM: 9 stocks
+
+  MCD: 3 stocks
+
+  V: 10 stocks
+
+  BA: 6 stocks
+
+  GS: 24 stocks
+
+  DIS: 11 stocks
+
+  HD: 8 stocks
+
+  HON: 11 stocks
+
+  AXP: 21 stocks
+
+  AMGN: 5 stocks
+
+  CVX: 4 stocks
+
+  BA: 4 stocks
+
+  MRK: 26 stocks
+
+  AXP: 8 stocks
+
+  CSCO: 17 stocks
+
+  PG: 5 stocks
+
+  BA: 11 stocks
+
+  HD: 19 stocks
+
+  JNJ: 26 stocks
+
+  TRV: 4 stocks
+
+  AXP: 25 stocks
+
+  JNJ: 5 stocks
+
+  CVX: 8 stocks
+
+  DOW: 20 stocks
+
+  NKE: 2 stocks
+
+  KO: 30 stocks
+
+  CVX: 7 stocks
+
+  GS: 23 stocks
+
+  MMM: 26 stocks
+
+  BA: 4 stocks
+
+  CVX: 15 stocks
+
+  PG: 15 stocks
+
+  IBM: 30 stocks
+
+  BA: 30 stocks
+
+  KO: 7 stocks
+
+  CRM: 16 stocks
+
+  V: 7 stocks
+
+  DIS: 30 stocks
+
+  IBM: 18 stocks
+
+  MSFT: 12 stocks
+
+  AMGN: 18 stocks
+
+  CAT: 12 stocks
+
+  AXP: 24 stocks
+
+  NKE: 6 stocks
+
+  HON: 30 stocks
+
+  JPM: 26 stocks
+
+  MSFT: 4 stocks
+
+  MCD: 1 stocks
+
+  CRM: 3 stocks
+
+  UNH: 26 stocks
+
+  BA: 28 stocks
+
+  HD: 2 stocks
+
+  CAT: 9 stocks
+
+  CVX: 16 stocks
+
+  WMT: 5 stocks
+
+  HON: 9 stocks
+
+  VZ: 21 stocks
+
+  MMM: 28 stocks
+
+  UNH: 2 stocks
+
+  BA: 14 stocks
+
+  JNJ: 16 stocks
+
+  CAT: 9 stocks
+
+  DIS: 19 stocks
+
+  JPM: 2 stocks
+
+  DOW: 30 stocks
+
+  V: 30 stocks
+
+  CVX: 6 stocks
+
+  NKE: 24 stocks
+
+  AMGN: 11 stocks
+
+  PG: 19 stocks
+
+  AMZN: 10 stocks
+
+  JPM: 16 stocks
+
+  TRV: 4 stocks
+
+  MMM: 13 stocks
+
+  TRV: 17 stocks
+
+  BA: 2 stocks
+
+  IBM: 28 stocks
+
+  AXP: 21 stocks
+
+  AMGN: 8 stocks
+
+  BA: 1 stocks
+
+  DOW: 19 stocks
+
+  CRM: 11 stocks
+
