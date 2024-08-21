@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bovesp_post_pandemic
+#SBATCH --job-name=dji_post_pandemic
 #SBATCH --ntasks=1
 #SBATCH --mem 16G
 #SBATCH -c 8
@@ -14,4 +14,4 @@ module load Python/3.8
 source env/bin/activate
 
 # executar .py
-python3 src/ibovespa/post-pandemic.py
+python3 src/dow_jones/main.py --period post-pandemic
