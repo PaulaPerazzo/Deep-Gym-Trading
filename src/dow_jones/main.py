@@ -7,7 +7,6 @@ from gym_trading.agent import Agent
 from gym_trading.enviroment import PortfolioEnv 
 import pandas as pd
 from gym_trading.network import ActorCritic
-import parser
 import argparse
 
 def main(period):
