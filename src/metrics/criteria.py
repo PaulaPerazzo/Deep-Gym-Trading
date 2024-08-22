@@ -1,9 +1,9 @@
 import numpy as np
 
 class ProfitCriteria:
-    def __init__(self, portfolio_values, total_steps, trading_days_per_year=252):
+    def __init__(self, portfolio_values, num_years, trading_days_per_year=252):
         self.portfolio_values = portfolio_values
-        self.total_steps = total_steps
+        self.num_years = num_years
         self.trading_days_per_year = trading_days_per_year
 
 
@@ -15,7 +15,7 @@ class ProfitCriteria:
         ----------
         portfolio_values : list
             The list of the portfolio values.
-        total_steps : int
+        num_years : int
             The total steps of the simulation.
         trading_days_per_year : int, optional
             The number of trading days per year, by default 252.
@@ -30,20 +30,22 @@ class ProfitCriteria:
         # final_value = self.portfolio_values[-1]
 
         # total_return = final_value / initial_value
-        # number_of_years = self.total_steps / self.trading_days_per_year
+        # number_of_years = self.num_years / self.trading_days_per_year
 
         # arr = (total_return ** (1 / number_of_years)) - 1
 
         # return arr
         initial_value = self.portfolio_values[0]
         final_value = self.portfolio_values[-1]
-
         total_return = final_value / initial_value
-        number_of_years = self.total_steps / self.trading_days_per_year
+        annualized_return = (total_return ** (1 / self.num_years)) - 1
 
-        arr = (total_return ** (1 / number_of_years)) - 1
+        annualized_return_percentage = annualized_return * 100
 
-        return arr
+        print("Initial Value:", initial_value)
+        print("Final Value:", final_value)
+
+        return annualized_return_percentage
 
 
 class RiskCriteria:
@@ -78,12 +80,20 @@ class RiskCriteria:
         float
             The maximum drawdown.
         """
-        running_max = np.maximum.accumulate(self.portfolio_values)
-        drawdown = (running_max - self.portfolio_values) / running_max
+        # Ensure portfolio_values is a numpy array
+        portfolio_values = np.array(self.portfolio_values)
+
+        # Calculate the running maximum of the portfolio values
+        running_max = np.maximum.accumulate(portfolio_values)
+
+        # Calculate drawdown, handling division by zero
+        drawdown = np.where(running_max > 0, (running_max - portfolio_values) / running_max, 0)
+
+        # Get the maximum drawdown
         max_drawdown = np.max(drawdown)
-        
+
         return max_drawdown
-    
+
 
 class RiskReturnCriteria:
     def __init__(self, returns=None, portfolio_values=None, risk_free_rate=0.0, trading_days_per_year=252):
