@@ -9,7 +9,7 @@ from gym_trading.enviroment import PortfolioEnv
 from gym_trading.network import ActorCritic
 from metrics.criteria import ProfitCriteria, RiskCriteria, RiskReturnCriteria
 import argparse
-from ibovespa.mailer import send_email
+import csv
 
 def main(period):
     stock_data = pd.read_csv("./data/ibovespa_2019_data.csv")
@@ -78,7 +78,7 @@ def main(period):
     selected_stocks = []
     portfolio_values = []
 
-    initial_portfolio_value = 100000  # Example initial value in cash
+    initial_portfolio_value = 0  # Example initial value in cash
     current_portfolio_value = initial_portfolio_value
 
     while not done:
@@ -99,7 +99,7 @@ def main(period):
             current_investment_value = sum(action[i] * current_prices[i] for i in range(len(action)))
 
             # Update portfolio value based on the new investments
-            current_portfolio_value = current_investment_value + current_portfolio_value
+            current_portfolio_value = current_investment_value
 
             # Append the updated portfolio value to the list
             portfolio_values.append(current_portfolio_value)
@@ -125,7 +125,7 @@ def main(period):
         file.write(f"Total reward: {rewards}\n")
     
     returns = np.diff(portfolio_values) / portfolio_values[:-1]
-    profit_criteria = ProfitCriteria(portfolio_values=portfolio_values, total_steps=len(portfolio_values))
+    profit_criteria = ProfitCriteria(portfolio_values=portfolio_values, num_years=1)
     risk_criteria = RiskCriteria(returns=returns, portfolio_values=portfolio_values)
     risk_return_criteria = RiskReturnCriteria(returns=returns, portfolio_values=portfolio_values, risk_free_rate=0.01)
 
@@ -147,22 +147,14 @@ def main(period):
     print(f"Calmar Ratio: {calmar_ratio}")
     print(f"Sortino Ratio: {sortino_ratio}")
 
-    file_path_metrics = f"./src/ibovespa/logs/metrics_{period}.txt"
+    file_path_metrics = "./src/ibovespa/logs/metrics_ibovespa.csv"
+
     if not os.path.exists(file_path_metrics):
         os.makedirs(os.path.dirname(file_path_metrics), exist_ok=True)
 
-    with open(file_path_metrics, "a") as file:
-        file.write("Profit Criteria:\n")
-        file.write(f"Anualized return: {arr}\n")
-        file.write("Risk Criteria:\n")
-        file.write(f"Annualized volatility: {avol}\n")
-        file.write(f"Max drawdown: {mdd}\n")
-        file.write("Risk-Return Criteria:\n")
-        file.write(f"Sharpe Ratio: {sharpe_ratio}\n")
-        file.write(f"Calmar Ratio: {calmar_ratio}\n")
-        file.write(f"Sortino Ratio: {sortino_ratio}\n")
-
-    send_email()
+    with open(file_path_metrics, "a", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([period, arr, avol, mdd, sharpe_ratio, calmar_ratio, sortino_ratio])
 
 
 if __name__ == "__main__":
@@ -170,4 +162,5 @@ if __name__ == "__main__":
     parser.add_argument('--period', type=str, required=True, help="pre-pandemic, pandemic, post-pandemic, or all")
     args = parser.parse_args()
 
-    main(args.period)
+    for i in range(10):
+        main(args.period)
