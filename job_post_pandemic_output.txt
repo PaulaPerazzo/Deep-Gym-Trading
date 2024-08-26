@@ -1,0 +1,418 @@
+                   MMM        AOS  ...         ZBH         ZTS
+Ticker                             ...                        
+2022-01-03  131.330887  79.623741  ...  122.870056  228.507736
+2022-01-04  133.170731  80.948082  ...  124.116539  219.807968
+2022-01-05  132.623947  79.595139  ...  123.707397  211.449966
+2022-01-06  131.522995  80.128700  ...  122.679749  212.289673
+2022-01-07  132.963852  79.223572  ...  121.937561  206.109070
+
+[5 rows x 498 columns]
+              Adj Close
+Ticker                 
+2022-01-03  4796.560059
+2022-01-04  4793.540039
+2022-01-05  4700.580078
+2022-01-06  4696.049805
+2022-01-07  4677.029785
+Updated epsilon: 1.0
+Episode 0 - Reward: [2.58984853]
+Updated epsilon: 0.1
+Episode 1 - Reward: [2.90516442]
+Updated epsilon: 0.1
+Episode 2 - Reward: [6.80512429]
+Updated epsilon: 0.1
+Episode 3 - Reward: [1.47486082]
+Updated epsilon: 0.1
+Episode 4 - Reward: [1.72877514]
+Updated epsilon: 0.1
+Episode 5 - Reward: [3.11633653]
+Updated epsilon: 0.1
+Episode 6 - Reward: [6.12427575]
+Updated epsilon: 0.1
+Episode 7 - Reward: [1.1946664]
+Updated epsilon: 0.1
+Episode 8 - Reward: [0.59518739]
+Updated epsilon: 0.1
+Episode 9 - Reward: [2.58278595]
+Updated epsilon: 0.1
+Episode 10 - Reward: [-0.09743775]
+Updated epsilon: 0.1
+Episode 11 - Reward: [6.91378459]
+Updated epsilon: 0.1
+Episode 12 - Reward: [8.31533809]
+Updated epsilon: 0.1
+Episode 13 - Reward: [6.29748883]
+Updated epsilon: 0.1
+Episode 14 - Reward: [5.77817571]
+Updated epsilon: 0.1
+Episode 15 - Reward: [5.64455725]
+Updated epsilon: 0.1
+Episode 16 - Reward: [7.8710356]
+Updated epsilon: 0.1
+Episode 17 - Reward: [2.45679477]
+Updated epsilon: 0.1
+Episode 18 - Reward: [4.77023063]
+Updated epsilon: 0.1
+Episode 19 - Reward: [3.20636221]
+Updated epsilon: 0.1
+Episode 20 - Reward: [3.49891158]
+Updated epsilon: 0.1
+Episode 21 - Reward: [3.23452385]
+Updated epsilon: 0.1
+Episode 22 - Reward: [3.2877028]
+Updated epsilon: 0.1
+Episode 23 - Reward: [5.27221729]
+Updated epsilon: 0.1
+Episode 24 - Reward: [5.52866804]
+Updated epsilon: 0.1
+Episode 25 - Reward: [5.19383308]
+Updated epsilon: 0.1
+Episode 26 - Reward: [2.11063775]
+Updated epsilon: 0.1
+Episode 27 - Reward: [4.08021219]
+Updated epsilon: 0.1
+Episode 28 - Reward: [3.25892786]
+Updated epsilon: 0.1
+Episode 29 - Reward: [4.0429631]
+Updated epsilon: 0.1
+Episode 30 - Reward: [5.68006672]
+Updated epsilon: 0.1
+Episode 31 - Reward: [5.72661943]
+Updated epsilon: 0.1
+Episode 32 - Reward: [4.80092492]
+Updated epsilon: 0.1
+Episode 33 - Reward: [3.59240207]
+Updated epsilon: 0.1
+Episode 34 - Reward: [6.37374236]
+Updated epsilon: 0.1
+Episode 35 - Reward: [6.29021136]
+Updated epsilon: 0.1
+Episode 36 - Reward: [2.26161822]
+Updated epsilon: 0.1
+Episode 37 - Reward: [5.06930187]
+Updated epsilon: 0.1
+Episode 38 - Reward: [1.56395805]
+Updated epsilon: 0.1
+Episode 39 - Reward: [4.50154177]
+Updated epsilon: 0.1
+Episode 40 - Reward: [5.65834884]
+Updated epsilon: 0.1
+Episode 41 - Reward: [6.9907569]
+Updated epsilon: 0.1
+Episode 42 - Reward: [4.21280889]
+Updated epsilon: 0.1
+Episode 43 - Reward: [2.6394299]
+Updated epsilon: 0.1
+Episode 44 - Reward: [2.88177322]
+Updated epsilon: 0.1
+Episode 45 - Reward: [1.67417156]
+Updated epsilon: 0.1
+Episode 46 - Reward: [4.66241673]
+Updated epsilon: 0.1
+Episode 47 - Reward: [3.79775864]
+Updated epsilon: 0.1
+Episode 48 - Reward: [5.94939225]
+Updated epsilon: 0.1
+Episode 49 - Reward: [5.81484101]
+Updated epsilon: 0.1
+Episode 50 - Reward: [4.57175999]
+Updated epsilon: 0.1
+Episode 51 - Reward: [4.40736703]
+Updated epsilon: 0.1
+Episode 52 - Reward: [3.8123719]
+Updated epsilon: 0.1
+Episode 53 - Reward: [5.51625148]
+Updated epsilon: 0.1
+Episode 54 - Reward: [3.62998358]
+Updated epsilon: 0.1
+Episode 55 - Reward: [4.39079773]
+Updated epsilon: 0.1
+Episode 56 - Reward: [5.30281008]
+Updated epsilon: 0.1
+Episode 57 - Reward: [2.87956374]
+Updated epsilon: 0.1
+Episode 58 - Reward: [0.93519092]
+Updated epsilon: 0.1
+Episode 59 - Reward: [6.84675863]
+Updated epsilon: 0.1
+Episode 60 - Reward: [1.59606452]
+Updated epsilon: 0.1
+Episode 61 - Reward: [3.02996282]
+Updated epsilon: 0.1
+Episode 62 - Reward: [8.19048411]
+Updated epsilon: 0.1
+Episode 63 - Reward: [5.75498863]
+Updated epsilon: 0.1
+Episode 64 - Reward: [6.3199909]
+Updated epsilon: 0.1
+Episode 65 - Reward: [2.89373906]
+Updated epsilon: 0.1
+Episode 66 - Reward: [6.31619579]
+Updated epsilon: 0.1
+Episode 67 - Reward: [-3.268462]
+Updated epsilon: 0.1
+Episode 68 - Reward: [6.22012001]
+Updated epsilon: 0.1
+Episode 69 - Reward: [5.58948534]
+Updated epsilon: 0.1
+Episode 70 - Reward: [4.44964948]
+Updated epsilon: 0.1
+Episode 71 - Reward: [-0.54715239]
+Updated epsilon: 0.1
+Episode 72 - Reward: [4.6860461]
+Updated epsilon: 0.1
+Episode 73 - Reward: [7.9772045]
+Updated epsilon: 0.1
+Episode 74 - Reward: [3.90776416]
+Updated epsilon: 0.1
+Episode 75 - Reward: [3.08556826]
+Updated epsilon: 0.1
+Episode 76 - Reward: [4.03544271]
+Updated epsilon: 0.1
+Episode 77 - Reward: [4.55597969]
+Updated epsilon: 0.1
+Episode 78 - Reward: [2.41553496]
+Updated epsilon: 0.1
+Episode 79 - Reward: [6.32231215]
+Updated epsilon: 0.1
+Episode 80 - Reward: [1.76401533]
+Updated epsilon: 0.1
+Episode 81 - Reward: [0.70388519]
+Updated epsilon: 0.1
+Episode 82 - Reward: [4.4920663]
+Updated epsilon: 0.1
+Episode 83 - Reward: [4.76799094]
+Updated epsilon: 0.1
+Episode 84 - Reward: [1.87366238]
+Updated epsilon: 0.1
+Episode 85 - Reward: [3.84134025]
+Updated epsilon: 0.1
+Episode 86 - Reward: [4.55144766]
+Updated epsilon: 0.1
+Episode 87 - Reward: [4.92438211]
+Updated epsilon: 0.1
+Episode 88 - Reward: [4.034728]
+Updated epsilon: 0.1
+Episode 89 - Reward: [2.81754506]
+Updated epsilon: 0.1
+Episode 90 - Reward: [-0.66642522]
+Updated epsilon: 0.1
+Episode 91 - Reward: [7.14359656]
+Updated epsilon: 0.1
+Episode 92 - Reward: [2.34082192]
+Updated epsilon: 0.1
+Episode 93 - Reward: [1.06621437]
+Updated epsilon: 0.1
+Episode 94 - Reward: [3.24065596]
+Updated epsilon: 0.1
+Episode 95 - Reward: [6.18187203]
+Updated epsilon: 0.1
+Episode 96 - Reward: [0.62323156]
+Updated epsilon: 0.1
+Episode 97 - Reward: [8.91183722]
+Updated epsilon: 0.1
+Episode 98 - Reward: [5.21016923]
+Updated epsilon: 0.1
+Episode 99 - Reward: [4.82845167]
+Updated epsilon: 0.1
+Episode 100 - Reward: [6.03317256]
+Updated epsilon: 0.1
+Episode 101 - Reward: [4.60603466]
+Updated epsilon: 0.1
+Episode 102 - Reward: [8.5371129]
+Updated epsilon: 0.1
+Episode 103 - Reward: [7.29779702]
+Updated epsilon: 0.1
+Episode 104 - Reward: [5.19735321]
+Updated epsilon: 0.1
+Episode 105 - Reward: [7.24393426]
+Updated epsilon: 0.1
+Episode 106 - Reward: [3.04290514]
+Updated epsilon: 0.1
+Episode 107 - Reward: [0.71144328]
+Updated epsilon: 0.1
+Episode 108 - Reward: [3.95331979]
+Updated epsilon: 0.1
+Episode 109 - Reward: [4.56249961]
+Updated epsilon: 0.1
+Episode 110 - Reward: [4.73965261]
+Updated epsilon: 0.1
+Episode 111 - Reward: [5.10985121]
+Updated epsilon: 0.1
+Episode 112 - Reward: [6.70384264]
+Updated epsilon: 0.1
+Episode 113 - Reward: [4.113527]
+Updated epsilon: 0.1
+Episode 114 - Reward: [5.18455374]
+Updated epsilon: 0.1
+Episode 115 - Reward: [5.22116615]
+Updated epsilon: 0.1
+Episode 116 - Reward: [6.53649672]
+Updated epsilon: 0.1
+Episode 117 - Reward: [6.06904066]
+Updated epsilon: 0.1
+Episode 118 - Reward: [2.2689619]
+Updated epsilon: 0.1
+Episode 119 - Reward: [3.75808516]
+Updated epsilon: 0.1
+Episode 120 - Reward: [5.68417928]
+Updated epsilon: 0.1
+Episode 121 - Reward: [6.86752524]
+Updated epsilon: 0.1
+Episode 122 - Reward: [5.65992407]
+Updated epsilon: 0.1
+Episode 123 - Reward: [2.12678039]
+Updated epsilon: 0.1
+Episode 124 - Reward: [6.67726328]
+Updated epsilon: 0.1
+Episode 125 - Reward: [6.25325738]
+Updated epsilon: 0.1
+Episode 126 - Reward: [5.65846527]
+Updated epsilon: 0.1
+Episode 127 - Reward: [7.11956834]
+Updated epsilon: 0.1
+Episode 128 - Reward: [4.50905348]
+Updated epsilon: 0.1
+Episode 129 - Reward: [2.13056789]
+Updated epsilon: 0.1
+Episode 130 - Reward: [3.67580804]
+Updated epsilon: 0.1
+Episode 131 - Reward: [3.36701657]
+Updated epsilon: 0.1
+Episode 132 - Reward: [3.38687912]
+Updated epsilon: 0.1
+Episode 133 - Reward: [1.85618307]
+Updated epsilon: 0.1
+Episode 134 - Reward: [6.81439624]
+Updated epsilon: 0.1
+Episode 135 - Reward: [3.69124347]
+Updated epsilon: 0.1
+Episode 136 - Reward: [1.87621419]
+Updated epsilon: 0.1
+Episode 137 - Reward: [7.40321301]
+Updated epsilon: 0.1
+Episode 138 - Reward: [1.02599997]
+Updated epsilon: 0.1
+Episode 139 - Reward: [7.63427555]
+Updated epsilon: 0.1
+Episode 140 - Reward: [4.49343717]
+Updated epsilon: 0.1
+Episode 141 - Reward: [3.31958495]
+Updated epsilon: 0.1
+Episode 142 - Reward: [3.65422146]
+Updated epsilon: 0.1
+Episode 143 - Reward: [7.27061461]
+Updated epsilon: 0.1
+Episode 144 - Reward: [1.49155778]
+Updated epsilon: 0.1
+Episode 145 - Reward: [4.02327836]
+Updated epsilon: 0.1
+Episode 146 - Reward: [3.76663403]
+Updated epsilon: 0.1
+Episode 147 - Reward: [4.60112639]
+Updated epsilon: 0.1
+Episode 148 - Reward: [4.2920602]
+Updated epsilon: 0.1
+Episode 149 - Reward: [1.47047708]
+Updated epsilon: 0.1
+Episode 150 - Reward: [3.78306322]
+Updated epsilon: 0.1
+Episode 151 - Reward: [3.47829467]
+Updated epsilon: 0.1
+Episode 152 - Reward: [3.39896747]
+Updated epsilon: 0.1
+Episode 153 - Reward: [4.93840798]
+Updated epsilon: 0.1
+Episode 154 - Reward: [9.50576353]
+Updated epsilon: 0.1
+Episode 155 - Reward: [0.74476138]
+Updated epsilon: 0.1
+Episode 156 - Reward: [5.8391682]
+Updated epsilon: 0.1
+Episode 157 - Reward: [4.16906635]
+Updated epsilon: 0.1
+Episode 158 - Reward: [7.435618]
+Updated epsilon: 0.1
+Episode 159 - Reward: [5.45579873]
+Updated epsilon: 0.1
+Episode 160 - Reward: [6.21173889]
+Updated epsilon: 0.1
+Episode 161 - Reward: [1.24333673]
+Updated epsilon: 0.1
+Episode 162 - Reward: [4.53651852]
+Updated epsilon: 0.1
+Episode 163 - Reward: [3.39862741]
+Updated epsilon: 0.1
+Episode 164 - Reward: [4.68008799]
+Updated epsilon: 0.1
+Episode 165 - Reward: [7.42209213]
+Updated epsilon: 0.1
+Episode 166 - Reward: [6.69799733]
+Updated epsilon: 0.1
+Episode 167 - Reward: [0.86720738]
+Updated epsilon: 0.1
+Episode 168 - Reward: [7.59115141]
+Updated epsilon: 0.1
+Episode 169 - Reward: [3.72421136]
+Updated epsilon: 0.1
+Episode 170 - Reward: [5.47186268]
+Updated epsilon: 0.1
+Episode 171 - Reward: [6.2234767]
+Updated epsilon: 0.1
+Episode 172 - Reward: [3.4721711]
+Updated epsilon: 0.1
+Episode 173 - Reward: [4.70112754]
+Updated epsilon: 0.1
+Episode 174 - Reward: [2.6219673]
+Updated epsilon: 0.1
+Episode 175 - Reward: [0.71542813]
+Updated epsilon: 0.1
+Episode 176 - Reward: [1.60730482]
+Updated epsilon: 0.1
+Episode 177 - Reward: [4.8354056]
+Updated epsilon: 0.1
+Episode 178 - Reward: [0.48701536]
+Updated epsilon: 0.1
+Episode 179 - Reward: [5.10577968]
+Updated epsilon: 0.1
+Episode 180 - Reward: [2.08906011]
+Updated epsilon: 0.1
+Episode 181 - Reward: [4.59711425]
+Updated epsilon: 0.1
+Episode 182 - Reward: [5.46243838]
+Updated epsilon: 0.1
+Episode 183 - Reward: [5.26942131]
+Updated epsilon: 0.1
+Episode 184 - Reward: [4.1218648]
+Updated epsilon: 0.1
+Episode 185 - Reward: [4.34113206]
+Updated epsilon: 0.1
+Episode 186 - Reward: [2.14817873]
+Updated epsilon: 0.1
+Episode 187 - Reward: [4.93355023]
+Updated epsilon: 0.1
+Episode 188 - Reward: [3.26824518]
+Updated epsilon: 0.1
+Episode 189 - Reward: [3.86636466]
+Updated epsilon: 0.1
+Episode 190 - Reward: [1.28580915]
+Updated epsilon: 0.1
+Episode 191 - Reward: [4.17995506]
+Updated epsilon: 0.1
+Episode 192 - Reward: [8.01610288]
+Updated epsilon: 0.1
+Episode 193 - Reward: [5.59759967]
+Updated epsilon: 0.1
+Episode 194 - Reward: [6.90566946]
+Updated epsilon: 0.1
+Episode 195 - Reward: [3.64813048]
+Updated epsilon: 0.1
+Episode 196 - Reward: [0.99825222]
+Updated epsilon: 0.1
+Episode 197 - Reward: [5.13086454]
+Updated epsilon: 0.1
+Episode 198 - Reward: [5.40706151]
+Updated epsilon: 0.1
+Episode 199 - Reward: [1.70452292]
+Training finished
+Email sent successfully
