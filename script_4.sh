@@ -5,7 +5,7 @@
 #SBATCH -c 8
 #SBATCH -o job.log
 #SBATCH --output=job_all_output.txt
-#SBATCH --error=job_pre_all_error.txt
+#SBATCH --error=job_all_error.txt
 
 # carregar versão python
 module load Python/3.8
@@ -14,4 +14,4 @@ module load Python/3.8
 source env/bin/activate
 
 # executar .py
-python3 src/sp_500/main.py --period all
+python3 src/sp_500/test.py --period all

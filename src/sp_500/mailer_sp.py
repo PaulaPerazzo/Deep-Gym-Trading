@@ -8,9 +8,9 @@ def send_email(period):
     msg = MIMEMultipart()
     msg['From'] = "mpps@cin.ufpe.br"
     msg['To'] = "mpps@cin.ufpe.br"
-    msg['Subject'] = "Pibic Code"
+    msg['Subject'] = "Pibic Code - SP500"
 
-    message = f"your code from S&P500 {period} finished running"
+    message = f"your testing code from S&P500 {period} finished running"
     email = "mpps@cin.ufpe.br"
     password = "rjhq canr ujew tpms"
 

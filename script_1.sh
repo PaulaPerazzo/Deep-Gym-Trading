@@ -14,4 +14,4 @@ module load Python/3.8
 source env/bin/activate
 
 # executar .py
-python3 src/sp_500/main.py --period pre-pandemic
+python3 src/sp_500/test.py --period pre-pandemic
