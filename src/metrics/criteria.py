@@ -1,3 +1,4 @@
+import os
 import numpy as np
 
 class ProfitCriteria:
@@ -146,3 +147,40 @@ class RiskReturnCriteria:
         sortino_ratio = annualized_return / downside_deviation
         
         return sortino_ratio
+
+
+class ReturnMetrics:
+    def __init__(self, portfolio_values):
+        self.portfolio_values = portfolio_values
+    
+    def cumulative_return(self):
+        """
+        Calculate the cumulative return of the portfolio over the entire period.
+
+        Returns
+        -------
+        float
+            The cumulative return.
+        """
+        initial_value = self.portfolio_values[0]
+        final_value = self.portfolio_values[-1]
+        total_return = (final_value / initial_value) - 1
+
+        return total_return
+
+    def daily_returns(self):
+        """
+        Calculate daily returns of the portfolio.
+
+        Returns
+        -------
+        list
+            A list of daily returns.
+        """
+        daily_returns = []
+
+        for i in range(1, len(self.portfolio_values)):
+            daily_return = (self.portfolio_values[i] / self.portfolio_values[i - 1]) - 1
+            daily_returns.append(daily_return)
+            
+        return daily_returns
