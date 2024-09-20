@@ -9,7 +9,7 @@ import pandas as pd
 from gym_trading.agent import Agent
 from gym_trading.enviroment import PortfolioEnv
 from gym_trading.network import ActorCritic
-from metrics.criteria import ProfitCriteria, RiskCriteria, RiskReturnCriteria
+from metrics.criteria import ProfitCriteria, ReturnMetrics, RiskCriteria, RiskReturnCriteria
 import argparse
 import csv
 from mailer import send_email
@@ -94,12 +94,27 @@ def main(period, time):
         else:
             print(f"Warning: current_step {env.current_step} is out of bounds. Skipping this step.")
             done = True
+    
+    if portfolio_values:
+        return_metrics = ReturnMetrics(portfolio_values)
+        daily_returns = return_metrics.daily_returns()
+
+        file_path = f"./src/dow_jones/logs/cumulative_{period}.csv"
+
+        if not os.path.exists(file_path):
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        
+        with open(file_path, "a", newline='') as file:
+            writer = csv.writer(file)
+
+            for i, daily_return in enumerate(daily_returns):
+                writer.writerow([i, daily_return])
  
     # Imprimir ou processar as ações e recompensas
     for step, stocks in enumerate(selected_stocks):
         print(f"Step {step+1}: {stocks}")
 
-        file_path = f"./src/dow_jones/logs/testing_dj_{period}.txt"
+        file_path = f"./src/dow_jones/logs/testing_dj_{period}_2.txt"
 
         if not os.path.exists(file_path):
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -107,7 +122,7 @@ def main(period, time):
         with open(file_path, "a") as file:
             file.write(f"Step {step+1}: {stocks}\n")
 
-    env.print_action_history(period=period)
+    # env.print_action_history(period=period)
     print("Total reward:", rewards)
 
     with open(file_path, "a") as file:
@@ -136,7 +151,7 @@ def main(period, time):
     print(f"Calmar Ratio: {calmar_ratio}")
     print(f"Sortino Ratio: {sortino_ratio}")
 
-    file_path = f"./src/dow_jones/logs/metrics_dj.csv"
+    file_path = f"./src/dow_jones/logs/metrics_dj_2.csv"
 
     if not os.path.exists(file_path):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)

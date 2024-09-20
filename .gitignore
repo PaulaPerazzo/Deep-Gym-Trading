@@ -13,7 +13,6 @@ env
 ./.venv
 /.venv
 
-mailer.py
 ./djones.ipynb
 /djones.ipynb
 djones.ipynb
