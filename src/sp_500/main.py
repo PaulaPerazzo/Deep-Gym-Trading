@@ -8,7 +8,6 @@ from gym_trading.enviroment import PortfolioEnv
 import pandas as pd
 from gym_trading.network import ActorCritic
 import argparse
-from mailer_sp import send_email
 
 def main(period):
     if period == "pre-pandemic":
@@ -29,9 +28,6 @@ def main(period):
 
     stock_data = stock_data.set_index("Ticker")
     index_data = index_data.set_index("Ticker")
-
-    print(stock_data.head())
-    print(index_data.head())
     
     min_length = min(len(stock_data), len(index_data))
     stock_data = stock_data[-min_length:]
@@ -42,7 +38,6 @@ def main(period):
     
     ### network ###
     HIDDEN_SIZE = 256
-    # print(env.observation_space.shape, len(env.action_space))
     actor_critic = ActorCritic(4980, len(env.action_space), hidden_size=HIDDEN_SIZE)
     optimizer, scheduler =  actor_critic.set_params()
 
@@ -50,8 +45,6 @@ def main(period):
     agent = Agent(env, actor_critic, optimizer, scheduler)
     agent.train(200)
     agent.save_model(f"./models/sp_500_{period}.pth")
-
-    send_email(period)
 
 
 if __name__ == "__main__":
