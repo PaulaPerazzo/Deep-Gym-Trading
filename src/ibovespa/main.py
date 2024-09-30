@@ -5,8 +5,6 @@ from gym_trading.network import ActorCritic
 
 def main():
     stock_data = pd.read_csv("./data/data_cleaned_nan.csv")
-    # stock_data.drop(columns=["Unnamed: 0"], inplace=True)
-    # stock_data = stock_data.sample(frac=0.05, random_state=42)
     stock_data = stock_data.set_index("Ticker")
     index_data = stock_data.copy()
     
@@ -22,7 +20,6 @@ def main():
     
     ### network ###
     HIDDEN_SIZE = 256
-    # print(env.observation_space.shape, len(env.action_space))
     actor_critic = ActorCritic(2850, len(env.action_space), hidden_size=HIDDEN_SIZE)
     optimizer, scheduler =  actor_critic.set_params()
 
