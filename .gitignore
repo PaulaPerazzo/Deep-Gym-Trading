@@ -25,3 +25,14 @@ s&p500.ipynb
 
 ./sp_500_job
 sp_500_job
+
+data_oficial
+
+dowjones_jobs
+ibovespa_jobs
+render_log
+
+models_folder
+
+djones_notebook.ipynb
+s&p500_notebook.ipynb
