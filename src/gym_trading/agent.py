@@ -1,11 +1,6 @@
 import torch
 import os
 
-# log_dir = "./logs"
-# log_file = os.path.join(log_dir, "training_1.txt")
-# print(log_dir)
-# print(log_file)
-
 class Agent:
     def __init__(self, env, model, optimizer, scheduler, eps_min=0.1, eps=1.0, eps_decay=0.995):
         self.env = env
@@ -38,10 +33,8 @@ class Agent:
 
         if torch.rand(1) < self.eps:
             state_shape_1 = (int(state.shape[1]) / 10)
-            # action = torch.randint(0, state.shape[1], size=(1, state_shape_1))
+            action = torch.randint(0, state.shape[1], size=(1, state_shape_1))
             # action = torch.randint(0, state.shape[1], size=(1, 285))
-            # action = torch.randint(0, state.shape[1], size=(1, 30))
-            action = torch.randint(0, state.shape[1], size=(1, 498))
         
         else:
             with torch.no_grad():
@@ -59,22 +52,6 @@ class Agent:
 
     def sample_action(self, probs, max_share):
         probs = torch.relu(probs)
-
-        # if torch.isnan(probs).any() or torch.isinf(probs).any():
-        #     print("Probs contain NaN or inf values:", probs)
-        #     probs = torch.nan_to_num(probs)
-
-        # scaled_probs = (probs / probs.sum()) * max_share
-        # shares = torch.floor(scaled_probs)
-
-        # while shares.sum() < max_share:
-        #     residuals = scaled_probs - shares
-        #     residuals = torch.clamp(residuals, min=0)
-        #     residuals /= residuals.sum()
-        #     choosen_index = torch.multinomial(residuals, 1)
-        #     shares[choosen_index] += 1
-
-        # return shares.int()
 
         probs /= probs.sum()
         probs = torch.clamp(probs, min=1e-6)
@@ -100,11 +77,9 @@ class Agent:
 
             while not done:
                 state_tensor = torch.FloatTensor(state).unsqueeze(0)
-                # print("State tensor:", state_tensor)
                 value, dist = self.model(state_tensor)
                 probs = dist.probs.squeeze()
-                # print("Probs:", probs)
-                action = self.sample_action(probs, self.max_shares)  # Assegure que a ação é um vetor numpy
+                action = self.sample_action(probs, self.max_shares)
 
                 next_state, reward, done, _ = self.env.step(action.numpy())
                 next_state = next_state.flatten()
@@ -138,7 +113,6 @@ class Agent:
             # update episilon after each episode
             self.update_eps(episode)
             self.scheduler.step()
-            # self.eps = max(self.eps * self.eps_decay, self.eps_min)
             print(f"Episode {episode} - Reward: {total_reward}")
 
             with open("./src/gym_trading/logs/training_3.txt", "a") as f:
