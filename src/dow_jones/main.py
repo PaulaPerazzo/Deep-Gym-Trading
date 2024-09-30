@@ -38,7 +38,6 @@ def main(period):
     
     ### network ###
     HIDDEN_SIZE = 256
-    # print(env.observation_space.shape, len(env.action_space))
     actor_critic = ActorCritic(300, len(env.action_space), hidden_size=HIDDEN_SIZE)
     optimizer, scheduler =  actor_critic.set_params()
 

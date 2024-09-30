@@ -7,7 +7,7 @@ import pandas as pd
 from gym_trading.agent import Agent
 from gym_trading.enviroment import PortfolioEnv
 from gym_trading.network import ActorCritic
-from metrics.criteria import ProfitCriteria, RiskCriteria, RiskReturnCriteria
+from metrics.criteria import ProfitCriteria, ReturnMetrics, RiskCriteria, RiskReturnCriteria
 import argparse
 import csv
 
@@ -62,15 +62,12 @@ def main(period):
     stock_data = stock_data[-min_length:]
     index_data = index_data[-min_length:]
 
-    # Inicializar o ambiente
     env = PortfolioEnv(stock_data, index_data)
     print("Environment initialized.")
 
-    # Inicializar o agente
     agent = Agent(env, actor_critic, optimizer=None, scheduler=None)
     print("Agent initialized.")
 
-    # Loop de avaliação
     state = env.reset().flatten() 
     done = False
     actions_taken = []
@@ -78,7 +75,7 @@ def main(period):
     selected_stocks = []
     portfolio_values = []
 
-    initial_portfolio_value = 0  # Example initial value in cash
+    initial_portfolio_value = 0  
     current_portfolio_value = initial_portfolio_value
 
     while not done:
@@ -106,12 +103,26 @@ def main(period):
         else:
             print(f"Warning: current_step {env.current_step} is out of bounds. Skipping this step.")
             done = True
+    
+    if portfolio_values:
+        return_metrics = ReturnMetrics(portfolio_values)
+        daily_returns = return_metrics.daily_returns()
+
+        file_path = f"./src/ibovespa/logs/cumulative_{period}.csv"
+
+        if not os.path.exists(file_path):
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        
+        with open(file_path, "a", newline='') as file:
+            writer = csv.writer(file)
+
+            for i, daily_return in enumerate(daily_returns):
+                writer.writerow([i, daily_return])
  
     file_path = f"./src/ibovespa/logs/testing_{period}.txt"
     if not os.path.exists(file_path):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-    # Imprimir ou processar as ações e recompensas
     for step, stocks in enumerate(selected_stocks):
         print(f"Step {step+1}: {stocks}")
 
@@ -162,5 +173,4 @@ if __name__ == "__main__":
     parser.add_argument('--period', type=str, required=True, help="pre-pandemic, pandemic, post-pandemic, or all")
     args = parser.parse_args()
 
-    for i in range(10):
-        main(args.period)
+    main(args.period)

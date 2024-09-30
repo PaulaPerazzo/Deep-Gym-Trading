@@ -9,12 +9,11 @@ import pandas as pd
 from gym_trading.agent import Agent
 from gym_trading.enviroment import PortfolioEnv
 from gym_trading.network import ActorCritic
-from metrics.criteria import ProfitCriteria, RiskCriteria, RiskReturnCriteria
+from metrics.criteria import ProfitCriteria, ReturnMetrics, RiskCriteria, RiskReturnCriteria
 import argparse
 import csv
-from mailer import send_email
 
-def main(period, time):
+def main(period):
     # Carregar os dados de ações e índice
     if period == "pre-pandemic":
         stock_data = pd.read_csv("./data/dji_stocks_2019.csv")
@@ -40,25 +39,20 @@ def main(period, time):
     stock_data = stock_data[-min_length:]
     index_data = index_data[-min_length:]
 
-    # Inicializar o ambiente
     env = PortfolioEnv(stock_data, index_data)
     print("Environment initialized.")
 
-    # Configuração da rede
     actor_critic = ActorCritic(inputs_features=300, hidden_size=256, n_actions=(len(env.action_space)))
     print("ActorCritic initialized.")
 
-    # Carregar o modelo treinado
     model_path = f"./models/dow_jones_{period}.pth"
     actor_critic.load_state_dict(torch.load(model_path))
     actor_critic.eval()
     print("Model loaded.")
 
-    # Inicializar o agente
     agent = Agent(env, actor_critic, optimizer=None, scheduler=None)
     print("Agent initialized.")
 
-    # Loop de avaliação
     state = env.reset().flatten() 
     done = False
     actions_taken = []
@@ -66,7 +60,7 @@ def main(period, time):
     selected_stocks = []
     portfolio_values = []
 
-    initial_portfolio_value = 0  # Example initial value in cash
+    initial_portfolio_value = 0 
     current_portfolio_value = initial_portfolio_value
 
     while not done:
@@ -94,8 +88,22 @@ def main(period, time):
         else:
             print(f"Warning: current_step {env.current_step} is out of bounds. Skipping this step.")
             done = True
+    
+    if portfolio_values:
+        return_metrics = ReturnMetrics(portfolio_values)
+        daily_returns = return_metrics.daily_returns()
+
+        file_path = f"./src/dow_jones/logs/cumulative_{period}.csv"
+
+        if not os.path.exists(file_path):
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        
+        with open(file_path, "a", newline='') as file:
+            writer = csv.writer(file)
+
+            for i, daily_return in enumerate(daily_returns):
+                writer.writerow([i, daily_return])
  
-    # Imprimir ou processar as ações e recompensas
     for step, stocks in enumerate(selected_stocks):
         print(f"Step {step+1}: {stocks}")
 
@@ -136,7 +144,7 @@ def main(period, time):
     print(f"Calmar Ratio: {calmar_ratio}")
     print(f"Sortino Ratio: {sortino_ratio}")
 
-    file_path = f"./src/dow_jones/logs/metrics_dj.csv"
+    file_path = f"./src/dow_jones/logs/metrics_dj_2.csv"
 
     if not os.path.exists(file_path):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -145,14 +153,10 @@ def main(period, time):
         writer = csv.writer(file)
         writer.writerow([period, arr, avol, mdd, sharpe_ratio, calmar_ratio, sortino_ratio])
 
-    if time == 9:
-        send_email(period)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--period', type=str, required=True, help="pre-pandemic, pandemic, post-pandemic, or all")
     args = parser.parse_args()
     
-    for i in range(10):
-        main(args.period, i)
+    main(args.period)

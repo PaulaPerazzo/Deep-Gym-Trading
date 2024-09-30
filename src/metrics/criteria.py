@@ -1,3 +1,4 @@
+import os
 import numpy as np
 
 class ProfitCriteria:
@@ -8,42 +9,12 @@ class ProfitCriteria:
 
 
     def anualized_return(self):
-        """
-        Calculate the anualized return of the portfolio.
-
-        Parameters
-        ----------
-        portfolio_values : list
-            The list of the portfolio values.
-        num_years : int
-            The total steps of the simulation.
-        trading_days_per_year : int, optional
-            The number of trading days per year, by default 252.
-
-        Returns
-        -------
-        float
-            The anualized return.
-        """
-        # # initial and final portfolio values
-        # initial_value = self.portfolio_values[0]
-        # final_value = self.portfolio_values[-1]
-
-        # total_return = final_value / initial_value
-        # number_of_years = self.num_years / self.trading_days_per_year
-
-        # arr = (total_return ** (1 / number_of_years)) - 1
-
-        # return arr
         initial_value = self.portfolio_values[0]
         final_value = self.portfolio_values[-1]
         total_return = final_value / initial_value
         annualized_return = (total_return ** (1 / self.num_years)) - 1
 
         annualized_return_percentage = annualized_return * 100
-
-        print("Initial Value:", initial_value)
-        print("Final Value:", final_value)
 
         return annualized_return_percentage
 
@@ -56,14 +27,6 @@ class RiskCriteria:
 
     
     def annualized_volatility(self):
-        """
-        Calculate the annualized volatility of the portfolio.
-
-        Returns
-        -------
-        float
-            The annualized volatility.
-        """
 
         daily_volatility = np.std(self.returns)
         annualized_volatility = daily_volatility * np.sqrt(self.trading_days_per_year)
@@ -72,15 +35,6 @@ class RiskCriteria:
 
 
     def max_drawdown(self):
-        """
-        Calculate the maximum drawdown of the portfolio.
-
-        Returns
-        -------
-        float
-            The maximum drawdown.
-        """
-        # Ensure portfolio_values is a numpy array
         portfolio_values = np.array(self.portfolio_values)
 
         # Calculate the running maximum of the portfolio values
@@ -146,3 +100,24 @@ class RiskReturnCriteria:
         sortino_ratio = annualized_return / downside_deviation
         
         return sortino_ratio
+
+
+class ReturnMetrics:
+    def __init__(self, portfolio_values):
+        self.portfolio_values = portfolio_values
+    
+    def cumulative_return(self):
+        initial_value = self.portfolio_values[0]
+        final_value = self.portfolio_values[-1]
+        total_return = (final_value / initial_value) - 1
+
+        return total_return
+
+    def daily_returns(self):
+        daily_returns = []
+
+        for i in range(1, len(self.portfolio_values)):
+            daily_return = (self.portfolio_values[i] / self.portfolio_values[i - 1]) - 1
+            daily_returns.append(daily_return)
+            
+        return daily_returns

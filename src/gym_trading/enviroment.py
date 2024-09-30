@@ -45,9 +45,7 @@ class PortfolioEnv(gym.Env):
 
         self.state = self.stock_data.iloc[self.current_step-self.window_size:self.current_step].values
         reward = self.compute_reward(action)
-        # print('action', action)
         name_action = dict(zip(self.stock_data.columns, action))
-        # print('name_action', name_action)
         self.action_history.append(name_action)
 
         return self.state, reward, self.done, {}
@@ -55,13 +53,11 @@ class PortfolioEnv(gym.Env):
 
     def adjust_action(self, action):
         while np.sum(action) > self.max_shares:
-            # Encontra índices onde a ação é maior que zero
             positive_indices = np.where(action > 0)[0]
 
             if not positive_indices.size:
-                break  # Se não houver ações para ajustar, saia do loop
+                break 
             
-            # Escolha aleatoriamente um índice para reduzir
             reduce_index = np.random.choice(positive_indices)
 
             action[reduce_index] -= 1
@@ -80,10 +76,6 @@ class PortfolioEnv(gym.Env):
         portfolio_return = np.dot(action, (current_prices - previous_prices) / previous_prices)
         index_return = (index_price_curr - index_price_prev) / index_price_prev
 
-        # portfolio_volat = np.std(portfolio_return)
-        # index_volat = np.std(index_return)
-
-        # reward = ((portfolio_return - index_return) / portfolio_volat) - 0.8 * abs(portfolio_volat - index_volat)
         reward = portfolio_return - index_return
 
         return reward
