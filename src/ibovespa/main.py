@@ -10,11 +10,11 @@ from gym_trading.network import ActorCritic
 import argparse
 
 def main(period):
-    stock_data = f"./data/br_stocks_{period}.csv"
-    index_data = f"./data/ibov_{period}.csv"
+    stock_data = pd.read_csv(f"./data/br_stocks_{period}.csv")
+    index_data = pd.read_csv(f"./data/ibov_{period}.csv")
 
-    stock_data = stock_data.set_index("Ticker")
-    index_data = index_data.set_index("Ticker")
+    stock_data.set_index("Ticker", inplace=True)
+    index_data.set_index("Ticker", inplace=True)
     
     min_length = min(len(stock_data), len(index_data))
     stock_data = stock_data[-min_length:]

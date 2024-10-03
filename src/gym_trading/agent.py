@@ -32,7 +32,7 @@ class Agent:
         state = state.reshape(1, -1)  # This will flatten [1, 10, 285] to [1, 2850]
 
         if torch.rand(1) < self.eps:
-            state_shape_1 = (int(state.shape[1]) / 10)
+            # state_shape_1 = (int(state.shape[1]) / 10)
             # action = torch.randint(0, state.shape[1], size=(1, state_shape_1))
             action = torch.randint(0, state.shape[1], size=(1, 86))
         
@@ -77,16 +77,22 @@ class Agent:
 
             while not done:
                 state_tensor = torch.FloatTensor(state).unsqueeze(0)
+                state_tensor = state_tensor.nan_to_num()
                 value, dist = self.model(state_tensor)
                 probs = dist.probs.squeeze()
                 action = self.sample_action(probs, self.max_shares)
 
                 next_state, reward, done, _ = self.env.step(action.numpy())
                 next_state = next_state.flatten()
+
                 total_reward += reward
 
                 ### calculate the loss
                 next_state_tensor = torch.FloatTensor(next_state).unsqueeze(0)
+
+                if next_state_tensor.isnan().any():
+                    next_state_tensor = torch.nan_to_num(next_state_tensor)
+
                 next_value, _ = self.model(next_state_tensor)
                 reward_tensor = torch.tensor(reward, dtype=torch.float32).squeeze()
                 target = reward_tensor + (self.env.gamma * next_value)
@@ -115,7 +121,7 @@ class Agent:
             self.scheduler.step()
             print(f"Episode {episode} - Reward: {total_reward}")
 
-            with open("./src/gym_trading/logs/training_3.txt", "a") as f:
+            with open("./src/gym_trading/logs/training_2024.txt", "a") as f:
                 f.write(f"Episode {episode} - Reward: {total_reward}\n")
 
         print("Training finished")

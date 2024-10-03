@@ -68,11 +68,17 @@ class PortfolioEnv(gym.Env):
     def compute_reward(self, action):
         current_prices = self.stock_data.iloc[self.current_step].values
         previous_prices = self.stock_data.iloc[self.current_step - 1].values
+        current_prices = np.nan_to_num(current_prices, nan=1e-6)
+        previous_prices = np.nan_to_num(previous_prices, nan=1e-6)
 
         index_price_curr = self.index_data.iloc[self.current_step].values
         index_price_prev = self.index_data.iloc[self.current_step - 1].values
 
+        previous_prices = np.where(previous_prices == 0, 1e-6, previous_prices)
+        index_price_prev = np.where(index_price_prev == 0, 1e-6, index_price_prev)
+
         action = action.reshape(1, -1)
+
         portfolio_return = np.dot(action, (current_prices - previous_prices) / previous_prices)
         index_return = (index_price_curr - index_price_prev) / index_price_prev
 
