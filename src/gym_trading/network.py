@@ -27,11 +27,6 @@ class ActorCritic(nn.Module):
         value = self.critic(x)
         probs = self.actor(x)
         dist = torch.distributions.Categorical(probs)
-        print("dist")
-        print(dist)
-
-        print("value")
-        print(value)
 
         return value, dist
     
