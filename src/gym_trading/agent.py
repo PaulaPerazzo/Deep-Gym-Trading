@@ -1,3 +1,4 @@
+from datetime import datetime
 import torch
 import os
 
@@ -121,7 +122,10 @@ class Agent:
             self.scheduler.step()
             print(f"Episode {episode} - Reward: {total_reward}")
 
-            with open("./src/gym_trading/logs/training_2024.txt", "a") as f:
+            time_now = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            file_path = f"training_ibov_{time_now}.txt"
+
+            with open(f"./src/gym_trading/logs/{file_path}", "a") as f:
                 f.write(f"Episode {episode} - Reward: {total_reward}\n")
 
         print("Training finished")

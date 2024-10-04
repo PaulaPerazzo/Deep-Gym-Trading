@@ -3,6 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'src')))
 
+from ibovespa.mailer import send_email
 from gym_trading.agent import Agent
 from gym_trading.enviroment import PortfolioEnv 
 import pandas as pd
@@ -31,7 +32,15 @@ def main(period):
     ### agent ###
     agent = Agent(env, actor_critic, optimizer, scheduler)
     agent.train(200)
-    agent.save_model(f"./models/ibovespa_{period}_2024.pth")
+
+    folder_path = "./models"
+
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path, exist_ok=True)
+
+    agent.save_model(f"./{folder_path}/ibovespa_{period}_2024.pth")
+
+    send_email(period)
 
 
 if __name__ == "__main__":
