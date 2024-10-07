@@ -10,7 +10,7 @@ def send_email(period):
     msg['To'] = "mpps@cin.ufpe.br"
     msg['Subject'] = "Pibic Code"
 
-    message = f"your code ibovespa {period} finished running"
+    message = f"your code ibovespa {period} finished testing"
     email = "mpps@cin.ufpe.br"
     password = "rjhq canr ujew tpms"
 

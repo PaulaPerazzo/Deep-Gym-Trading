@@ -93,7 +93,7 @@ class PortfolioEnv(gym.Env):
 
     def print_action_history(self, period):
         # verify if the path exists
-        file_path = f"./src/sp_500/logs/action_history_{period}.txt"
+        file_path = f"./src/sp_500/logs/action_history_{period}_2024-10-07.txt"
         
         if not os.path.exists(file_path):
             os.makedirs(os.path.dirname(file_path), exist_ok=True)

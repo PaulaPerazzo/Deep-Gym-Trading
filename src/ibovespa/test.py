@@ -1,6 +1,9 @@
 import sys
 import os
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'src')))
+
+from ibovespa.mailer import send_email
 import numpy as np
 import torch
 import pandas as pd
@@ -11,52 +14,54 @@ from metrics.criteria import ProfitCriteria, ReturnMetrics, RiskCriteria, RiskRe
 import argparse
 import csv
 
-def main(period):
-    stock_data = pd.read_csv("./data/ibovespa_2019_data.csv")
+def main(period, i):
+    stock_data = pd.read_csv("./data/br_stocks_2019.csv")
+    index_data = pd.read_csv("./data/ibov_2019.csv")
     
     # Configuração da rede
-    actor_critic = ActorCritic(inputs_features=2850, n_actions=285, hidden_size=256)
+    actor_critic = ActorCritic(inputs_features=860, n_actions=86, hidden_size=256)
     print("ActorCritic initialized.")
     
     if period == "pre-pandemic":
         # load data
-        stock_data = pd.read_csv("./data/ibovespa_2019_data.csv")
+        stock_data = pd.read_csv("./data/br_stocks_2019.csv")
+        index_data = pd.read_csv("./data/ibov_2019.csv")
         
         # load trained model
-        model_path = "./models/ibovespa_pre_pandemic.pth"
+        model_path = "./models/ibovespa_pre-pandemic_2024.pth"
         actor_critic.load_state_dict(torch.load(model_path))
         actor_critic.eval()
         print("Model loaded.")
 
     elif period == "pandemic":
-        stock_data = pd.read_csv("./data/ibovespa_2021_data.csv")
+        stock_data = pd.read_csv("./data/br_stocks_2021.csv")
+        index_data = pd.read_csv("./data/ibov_2021.csv")
 
-        model_path = "./models/ibovespa_pandemic.pth"
+        model_path = "./models/ibovespa_pandemic_2024.pth"
         actor_critic.load_state_dict(torch.load(model_path))
         actor_critic.eval()
         print("Model loaded.")
 
     elif period == "post-pandemic":
-        stock_data = pd.read_csv("./data/ibovespa_2023_data.csv")
+        stock_data = pd.read_csv("./data/br_stocks_2023.csv")
+        index_data = pd.read_csv("./data/ibov_2023.csv")
 
-        model_path = "./models/ibovespa_post_pandemic.pth"
+        model_path = "./models/ibovespa_post-pandemic_2024.pth"
         actor_critic.load_state_dict(torch.load(model_path))
         actor_critic.eval()
         print("Model loaded.")
         
     elif period == "all":
-        stock_data = pd.read_csv("./data/ibovespa_2023_data.csv")
+        stock_data = pd.read_csv("./data/br_stocks_2023.csv")
+        index_data = pd.read_csv("./data/ibov_2023.csv")
         
-        model_path = "./models/actor_critic_oficial_2.pth"
+        model_path = "./models/ibovespa_all_2024.pth"
         actor_critic.load_state_dict(torch.load(model_path))
         actor_critic.eval()
         print("Model loaded.")
-
-    stock_data = stock_data.set_index("Ticker")
-    index_data = stock_data.copy()
     
-    index_data = pd.DataFrame(index_data["^BVSP.4"])
-    stock_data = stock_data.drop(columns=["^BVSP.4"])
+    stock_data.set_index("Ticker", inplace=True)
+    index_data.set_index("Ticker", inplace=True)
 
     min_length = min(len(stock_data), len(index_data))
     stock_data = stock_data[-min_length:]
@@ -108,7 +113,7 @@ def main(period):
         return_metrics = ReturnMetrics(portfolio_values)
         daily_returns = return_metrics.daily_returns()
 
-        file_path = f"./src/ibovespa/logs/cumulative_{period}.csv"
+        file_path = f"./src/ibovespa/logs/cumulative_{period}_2024-10-07.csv"
 
         if not os.path.exists(file_path):
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -119,7 +124,7 @@ def main(period):
             for i, daily_return in enumerate(daily_returns):
                 writer.writerow([i, daily_return])
  
-    file_path = f"./src/ibovespa/logs/testing_{period}.txt"
+    file_path = f"./src/ibovespa/logs/testing_{period}_2024-10-07.txt"
     if not os.path.exists(file_path):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
@@ -158,7 +163,7 @@ def main(period):
     print(f"Calmar Ratio: {calmar_ratio}")
     print(f"Sortino Ratio: {sortino_ratio}")
 
-    file_path_metrics = "./src/ibovespa/logs/metrics_ibovespa.csv"
+    file_path_metrics = "./src/ibovespa/logs/metrics_ibovespa_2024-10-07.csv"
 
     if not os.path.exists(file_path_metrics):
         os.makedirs(os.path.dirname(file_path_metrics), exist_ok=True)
@@ -167,10 +172,14 @@ def main(period):
         writer = csv.writer(file)
         writer.writerow([period, arr, avol, mdd, sharpe_ratio, calmar_ratio, sortino_ratio])
 
+    if i == 9:
+        send_email(period)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--period', type=str, required=True, help="pre-pandemic, pandemic, post-pandemic, or all")
     args = parser.parse_args()
 
-    main(args.period)
+    for i in range(10):
+        main(args.period, i)
