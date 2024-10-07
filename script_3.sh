@@ -12,7 +12,7 @@
 module load Python/3.9
 
 # ativar ambiente
-source ./venv/bin/activate
+source ./env/bin/activate
 
 # executar .py
 python3 src/ibovespa/main.py --period pandemic 
